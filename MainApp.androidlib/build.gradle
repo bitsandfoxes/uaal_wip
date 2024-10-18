@@ -1,3 +1,8 @@
+
+plugins {
+    id 'io.sentry.android.gradle' version '4.12.0'
+}
+
 apply plugin: 'com.android.application'
 
 dependencies {
@@ -9,6 +14,7 @@ dependencies {
     implementation 'androidx.games:games-activity:3.0.0'
     implementation 'androidx.core:core:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'io.sentry:sentry-android:7.15.0'
     implementation fileTree(dir: project(':unityLibrary').getProjectDir().toString() + ('\\libs'), include: ['*.jar'])
     implementation project(':unityLibrary')
 }
@@ -39,6 +45,18 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
         }
     }
+}
+
+
+sentry {
+    org = "sentry-sdks"
+    projectName = "sentry-unity"
+
+    // this will upload your source code to Sentry to show it as part of the stack traces
+    // disable if you don't want to expose your sources
+    includeSourceContext = true
+    uploadNativeSymbols = true
 }

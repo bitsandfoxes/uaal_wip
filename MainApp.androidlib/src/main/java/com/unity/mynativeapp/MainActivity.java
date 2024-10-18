@@ -13,6 +13,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import io.sentry.android.core.SentryAndroid;
+
 public class MainActivity extends AppCompatActivity {
     private enum ActivityType {
         PLAYER_ACTIVITY, PLAYER_GAME_ACTIVITY, BOTH
@@ -29,6 +31,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+//        SentryAndroid.init(this, options -> {
+//            options.setDsn("https://e9ee299dbf554dfd930bc5f3c90d5d4b@o447951.ingest.us.sentry.io/4504604988538880");
+//        });
 
         isUnityLoaded = false;
         setContentView(R.layout.activity_main);
