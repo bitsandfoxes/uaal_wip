@@ -1,0 +1,1 @@
+/Users/bitfox/Workspace/my-dev/uaal-unity/UnityProject/Library/Bee/artifacts/Android/il2cppOutput/cpp
