@@ -15,9 +15,14 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    implementation(name: 'sentry-android-ndk-release', ext:'aar')
+    implementation(name: 'sentry-android-core-release', ext:'aar')
+}
+
 android {
     namespace "com.unity3d.player"
-    ndkPath "/Applications/Unity/Hub/Editor/6000.0.23f1/PlaybackEngines/AndroidPlayer/NDK"
+    ndkPath "/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK"
     ndkVersion "23.1.7779620"
     compileSdk 35
     buildToolsVersion = "34.0.0"
@@ -28,7 +33,7 @@ android {
     }
 
     defaultConfig {
-        consumerProguardFiles "proguard-unity.txt"
+        consumerProguardFiles "proguard-unity.txt", 'proguard-sentry-unity.pro'
         versionName "0.1"
         minSdk 23
         targetSdk 35

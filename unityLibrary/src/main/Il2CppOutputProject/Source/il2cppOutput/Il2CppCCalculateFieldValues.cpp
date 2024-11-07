@@ -4663,7 +4663,7 @@ struct U3CU3Ec_tB0F8F666F14E23D183E069C8CB2E0D3D329A6E2D  : public RuntimeObject
 struct U3CU3Ec_tAD8FB578B20F3F9C2DFCA4FA681BA387CC40ABBE  : public RuntimeObject
 {
 };
-struct U3CU3Ec__DisplayClass72_0_t01D25C667ED4F119B8D56B59D73EEECA067055F5  : public RuntimeObject
+struct U3CU3Ec__DisplayClass76_0_t61AD9F0839B1D0CE189E4ADC13495E82194D64DE  : public RuntimeObject
 {
 	VisualElementAsset_t558B207D551F8C727D1CD0F443F7211D095C3FA9* ___childVea;
 };
@@ -9377,7 +9377,7 @@ struct Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_marshaled_com
 {
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_Owner;
 };
-struct U3CU3Ec__DisplayClass77_0_tFAF3CCE626A54F7163D092287118761573D93D83 
+struct U3CU3Ec__DisplayClass81_0_tD3B24DA8718D26F0B4DDDBA77C025E403A76DD62 
 {
 	VisualElementAsset_t558B207D551F8C727D1CD0F443F7211D095C3FA9* ___asset;
 };
@@ -12784,7 +12784,7 @@ struct DefaultFocusOrder_t9EEC8B5DF0685386B41519B150765DD4F7905090
 {
 	int32_t ___value__;
 };
-struct U3Cget_stylesheetsU3Ed__27_t1B72CAEC839B46B635D592552307FAE9C735CA3D  : public RuntimeObject
+struct U3Cget_stylesheetsU3Ed__31_t0A5F776EDD6DE658EA63F4F2BE3233F1DD837F94  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428* ___U3CU3E2__current;
@@ -15753,7 +15753,7 @@ struct ValueTaskSourceAsTask_t728D12A19A662B3CC16A6F4E07F0FCBA89B24C35  : public
 	RuntimeObject* ____source;
 	int16_t ____token;
 };
-struct U3Cget_templateDependenciesU3Ed__23_tB7007CB06E865FE8EF1EB0BCFC441A4C12912DEC  : public RuntimeObject
+struct U3Cget_templateDependenciesU3Ed__27_tB7DA62B4ECBE0D29E54A009A40C43B5D77CC5ED5  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB* ___U3CU3E2__current;
@@ -16913,6 +16913,7 @@ struct VectorImage_t7BD8CE948377FFE95FCA0C48014ACDFC13B8F8FC  : public Scriptabl
 struct VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
 {
 	bool ___m_ImportedWithErrors;
+	bool ___m_HasUpdatedUrls;
 	bool ___m_ImportedWithWarnings;
 	List_1_t3A511618E31C01BE3D1EA788ABB9AD6F354E8485* ___m_Usings;
 	StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428* ___inlineSheet;
@@ -18660,7 +18661,6 @@ struct BaseField_1_t33E37D3A182C1DDE900EA4039FE03BF68FD0CD26  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	bool ___m_Value;
 	Func_2_t66AC14B29DD8B1DDD05693A14E55CF7707C762DB* ___onValidateValue;
@@ -18679,7 +18679,6 @@ struct BaseField_1_tA356484A7C6C9D9222E1295A10103E91BF7CE706  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___m_Value;
 	Func_2_t6D961B754F6F517E8D6D744484D805ED47ADFCBA* ___onValidateValue;
@@ -18698,7 +18697,6 @@ struct BaseField_1_t3BA8DE5143F5CC41D76D2A54E485E51F0DA1E619  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	BoundsInt_t4E757DE5EFF9FCB42000F173360DDC63B5585485 ___m_Value;
 	Func_2_t51BF04753FE2F710F0B2FDCC296519FDBC882E13* ___onValidateValue;
@@ -18717,7 +18715,6 @@ struct BaseField_1_tE421F7A771C0D353CD97C6346D02FDF717CF55A8  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	double ___m_Value;
 	Func_2_t0221E9CE1FF8B8FE59AED052D562790B96F13B3D* ___onValidateValue;
@@ -18736,7 +18733,6 @@ struct BaseField_1_tF13C07E8FC892946C19A35F07A2F9684FCEF2DF5  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2* ___m_Value;
 	Func_2_tE5BEB571757920386353D40F6DEB4944B5C380A9* ___onValidateValue;
@@ -18755,7 +18751,6 @@ struct BaseField_1_t2E0D58407FAF1252EBC323E19519CF157A58BA5A  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 ___m_Value;
 	Func_2_t4F09F23FA74A4C653F6AA364AC3C5B2C664A6A13* ___onValidateValue;
@@ -18774,7 +18769,6 @@ struct BaseField_1_tB351B262306464787F5A31B33CDC431E89796615  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	int32_t ___m_Value;
 	Func_2_t2FDA873D8482C79555CFB05233D610E8F1C7C354* ___onValidateValue;
@@ -18793,7 +18787,6 @@ struct BaseField_1_t1D211F1196D45DED55807E268A8B0E0D9F5D5088  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	int64_t ___m_Value;
 	Func_2_t0B663B3C621B47C182DE71861BC7D4AFC8CEBD62* ___onValidateValue;
@@ -18812,7 +18805,6 @@ struct BaseField_1_t20F941B6C24CA56850F3E1E4DAE464ED52B22A9B  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___m_Value;
 	Func_2_tB7886AF500F23F9AE78D86E5EBADFE0BBD37A1DA* ___onValidateValue;
@@ -18831,7 +18823,6 @@ struct BaseField_1_t9D3CB6D9190E9D20C857B1EE2F77C70A5B787F56  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 ___m_Value;
 	Func_2_t44F0BC956892FDA3EB80198FA179AD4CE456E0AA* ___onValidateValue;
@@ -18850,7 +18841,6 @@ struct BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	float ___m_Value;
 	Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* ___onValidateValue;
@@ -18869,7 +18859,6 @@ struct BaseField_1_tCFD0CD0290BAF33C363F8F2C2AC37320EBA86BE5  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	String_t* ___m_Value;
 	Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93* ___onValidateValue;
@@ -18888,7 +18877,6 @@ struct BaseField_1_t4EB446A18E475B5B52D3D686F905A99026CF1FAD  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	ToggleButtonGroupState_tB95F0A0DB8DAC1DC57EE02C7610744AB9FC268C2 ___m_Value;
 	Func_2_t34F9DC96048C040D6199FDD5E61638690A63AA75* ___onValidateValue;
@@ -18907,7 +18895,6 @@ struct BaseField_1_t6C006A5753EBBCE7485D9205F7DDA7387F6CBA5C  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	uint32_t ___m_Value;
 	Func_2_t9A0EC31CF651400F36A816B75727B7A125B71A19* ___onValidateValue;
@@ -18926,7 +18913,6 @@ struct BaseField_1_tF7A72945DC1CD809709A9E7805F92E7D25789942  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	uint64_t ___m_Value;
 	Func_2_tCCF02F7A2CB745300B9C766290B7B59C2CE4CEE7* ___onValidateValue;
@@ -18945,7 +18931,6 @@ struct BaseField_1_t24288AF0F89D70409E802DB92E87D9CA0A822507  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Value;
 	Func_2_t33ED521BE3A7E943FA8D764514952EDF1AF1C0FA* ___onValidateValue;
@@ -18964,7 +18949,6 @@ struct BaseField_1_t164143DEC5495C0F3F0084C33008E9F8A40FA886  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___m_Value;
 	Func_2_t4F7E38E7BB35050CFC131CE0DA82E7D1E681BE1E* ___onValidateValue;
@@ -18983,7 +18967,6 @@ struct BaseField_1_tB78B850472E8D80C410522B83653501AA27A339B  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Value;
 	Func_2_t5FAD225BE5BF75673982C9FE55604AC36DBC1DB4* ___onValidateValue;
@@ -19002,7 +18985,6 @@ struct BaseField_1_t441D885526846ED28BBAD84B777040279E7CD75C  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___m_Value;
 	Func_2_tC506A7A7A720786F7480B1EA49A031D24F0ECFCA* ___onValidateValue;
@@ -19021,7 +19003,6 @@ struct BaseField_1_tA1F41315EF3CC62659FC6306606C7CCA98D85C9F  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_Value;
 	Func_2_t45386234ABB726FFBC7310E0192AE01A58728C52* ___onValidateValue;
@@ -26933,9 +26914,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable1899[22] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable1902[1] = 
 {
 	0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable1903[33] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable1903[31] = 
 {
-	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable1904[1] = 
 {
 	0,};
@@ -28612,19 +28593,19 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2885[5] =
 	static_cast<int32_t>(offsetof(AssetEntry_tEB6FC90E5BB63DCA4FF932F2D64595339A28806D, ___m_Path)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AssetEntry_tEB6FC90E5BB63DCA4FF932F2D64595339A28806D, ___m_TypeFullName)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AssetEntry_tEB6FC90E5BB63DCA4FF932F2D64595339A28806D, ___m_AssetReference)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AssetEntry_tEB6FC90E5BB63DCA4FF932F2D64595339A28806D, ___m_InstanceID)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AssetEntry_tEB6FC90E5BB63DCA4FF932F2D64595339A28806D, ___m_CachedType)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2886[1] = 
 {
-	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass72_0_t01D25C667ED4F119B8D56B59D73EEECA067055F5, ___childVea)),};
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass76_0_t61AD9F0839B1D0CE189E4ADC13495E82194D64DE, ___childVea)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2887[1] = 
 {
-	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass77_0_tFAF3CCE626A54F7163D092287118761573D93D83, ___asset)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass81_0_tD3B24DA8718D26F0B4DDDBA77C025E403A76DD62, ___asset)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2888[12] = 
 {
-	static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__27_t1B72CAEC839B46B635D592552307FAE9C735CA3D, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__27_t1B72CAEC839B46B635D592552307FAE9C735CA3D, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__27_t1B72CAEC839B46B635D592552307FAE9C735CA3D, ___U3CU3El__initialThreadId)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__27_t1B72CAEC839B46B635D592552307FAE9C735CA3D, ___U3CU3E4__this)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__27_t1B72CAEC839B46B635D592552307FAE9C735CA3D, ___U3CsentU3E5__1)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__27_t1B72CAEC839B46B635D592552307FAE9C735CA3D, ___U3CU3Es__2)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__27_t1B72CAEC839B46B635D592552307FAE9C735CA3D, ___U3CveaU3E5__3)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__27_t1B72CAEC839B46B635D592552307FAE9C735CA3D, ___U3CU3Es__4)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__27_t1B72CAEC839B46B635D592552307FAE9C735CA3D, ___U3CstylesheetU3E5__5)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__27_t1B72CAEC839B46B635D592552307FAE9C735CA3D, ___U3CU3Es__6)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__27_t1B72CAEC839B46B635D592552307FAE9C735CA3D, ___U3CstylesheetPathU3E5__7)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__27_t1B72CAEC839B46B635D592552307FAE9C735CA3D, ___U3CstylesheetU3E5__8)),};
+	static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__31_t0A5F776EDD6DE658EA63F4F2BE3233F1DD837F94, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__31_t0A5F776EDD6DE658EA63F4F2BE3233F1DD837F94, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__31_t0A5F776EDD6DE658EA63F4F2BE3233F1DD837F94, ___U3CU3El__initialThreadId)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__31_t0A5F776EDD6DE658EA63F4F2BE3233F1DD837F94, ___U3CU3E4__this)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__31_t0A5F776EDD6DE658EA63F4F2BE3233F1DD837F94, ___U3CsentU3E5__1)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__31_t0A5F776EDD6DE658EA63F4F2BE3233F1DD837F94, ___U3CU3Es__2)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__31_t0A5F776EDD6DE658EA63F4F2BE3233F1DD837F94, ___U3CveaU3E5__3)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__31_t0A5F776EDD6DE658EA63F4F2BE3233F1DD837F94, ___U3CU3Es__4)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__31_t0A5F776EDD6DE658EA63F4F2BE3233F1DD837F94, ___U3CstylesheetU3E5__5)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__31_t0A5F776EDD6DE658EA63F4F2BE3233F1DD837F94, ___U3CU3Es__6)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__31_t0A5F776EDD6DE658EA63F4F2BE3233F1DD837F94, ___U3CstylesheetPathU3E5__7)),static_cast<int32_t>(offsetof(U3Cget_stylesheetsU3Ed__31_t0A5F776EDD6DE658EA63F4F2BE3233F1DD837F94, ___U3CstylesheetU3E5__8)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2889[8] = 
 {
-	static_cast<int32_t>(offsetof(U3Cget_templateDependenciesU3Ed__23_tB7007CB06E865FE8EF1EB0BCFC441A4C12912DEC, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3Cget_templateDependenciesU3Ed__23_tB7007CB06E865FE8EF1EB0BCFC441A4C12912DEC, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3Cget_templateDependenciesU3Ed__23_tB7007CB06E865FE8EF1EB0BCFC441A4C12912DEC, ___U3CU3El__initialThreadId)),static_cast<int32_t>(offsetof(U3Cget_templateDependenciesU3Ed__23_tB7007CB06E865FE8EF1EB0BCFC441A4C12912DEC, ___U3CU3E4__this)),static_cast<int32_t>(offsetof(U3Cget_templateDependenciesU3Ed__23_tB7007CB06E865FE8EF1EB0BCFC441A4C12912DEC, ___U3CsentU3E5__1)),static_cast<int32_t>(offsetof(U3Cget_templateDependenciesU3Ed__23_tB7007CB06E865FE8EF1EB0BCFC441A4C12912DEC, ___U3CU3Es__2)),static_cast<int32_t>(offsetof(U3Cget_templateDependenciesU3Ed__23_tB7007CB06E865FE8EF1EB0BCFC441A4C12912DEC, ___U3CentryU3E5__3)),static_cast<int32_t>(offsetof(U3Cget_templateDependenciesU3Ed__23_tB7007CB06E865FE8EF1EB0BCFC441A4C12912DEC, ___U3CvtaU3E5__4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2890[16] = 
+	static_cast<int32_t>(offsetof(U3Cget_templateDependenciesU3Ed__27_tB7DA62B4ECBE0D29E54A009A40C43B5D77CC5ED5, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3Cget_templateDependenciesU3Ed__27_tB7DA62B4ECBE0D29E54A009A40C43B5D77CC5ED5, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3Cget_templateDependenciesU3Ed__27_tB7DA62B4ECBE0D29E54A009A40C43B5D77CC5ED5, ___U3CU3El__initialThreadId)),static_cast<int32_t>(offsetof(U3Cget_templateDependenciesU3Ed__27_tB7DA62B4ECBE0D29E54A009A40C43B5D77CC5ED5, ___U3CU3E4__this)),static_cast<int32_t>(offsetof(U3Cget_templateDependenciesU3Ed__27_tB7DA62B4ECBE0D29E54A009A40C43B5D77CC5ED5, ___U3CsentU3E5__1)),static_cast<int32_t>(offsetof(U3Cget_templateDependenciesU3Ed__27_tB7DA62B4ECBE0D29E54A009A40C43B5D77CC5ED5, ___U3CU3Es__2)),static_cast<int32_t>(offsetof(U3Cget_templateDependenciesU3Ed__27_tB7DA62B4ECBE0D29E54A009A40C43B5D77CC5ED5, ___U3CentryU3E5__3)),static_cast<int32_t>(offsetof(U3Cget_templateDependenciesU3Ed__27_tB7DA62B4ECBE0D29E54A009A40C43B5D77CC5ED5, ___U3CvtaU3E5__4)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2890[17] = 
 {
-	static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB_StaticFields, ___LinkedVEAInTemplatePropertyName)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB_StaticFields, ___NoRegisteredFactoryErrorMessage)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_ImportedWithErrors)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_ImportedWithWarnings)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB_StaticFields, ___s_TemporarySlotInsertionPoints)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB_StaticFields, ___s_VeaIdsPath)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_Usings)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___inlineSheet)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_VisualElementAssets)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_TemplateAssets)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_UxmlObjectEntries)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_UxmlObjectIds)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_AssetEntries)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_Slots)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_ContentContainerId)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_ContentHash)),};
+	static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB_StaticFields, ___LinkedVEAInTemplatePropertyName)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB_StaticFields, ___NoRegisteredFactoryErrorMessage)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_ImportedWithErrors)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_HasUpdatedUrls)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_ImportedWithWarnings)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB_StaticFields, ___s_TemporarySlotInsertionPoints)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB_StaticFields, ___s_VeaIdsPath)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_Usings)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___inlineSheet)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_VisualElementAssets)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_TemplateAssets)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_UxmlObjectEntries)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_UxmlObjectIds)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_AssetEntries)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_Slots)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_ContentContainerId)),static_cast<int32_t>(offsetof(VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB, ___m_ContentHash)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2891[2] = 
 {
 	static_cast<int32_t>(offsetof(AttributeOverrideRange_t47A9929769CAD72883980AE2C29FACC19B310D49, ___sourceAsset)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AttributeOverrideRange_t47A9929769CAD72883980AE2C29FACC19B310D49, ___attributeOverrides)) + static_cast<int32_t>(sizeof(RuntimeObject)),};

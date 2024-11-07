@@ -87,7 +87,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m79ED1BF1EE36D1E417BA89A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 43560
+// Method Definition Index: 43564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumMemberAttribute__ctor_m3F91AFEBFAFB8DA2B8527180896657BC30BA94E3 (EnumMemberAttribute_t65B5E85E642C96791DD6AE5EAD0276350954126F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -95,7 +95,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumMemberAttribute__ctor_m3F91AFEBFAFB8
 		return;
 	}
 }
-// Method Definition Index: 43561
+// Method Definition Index: 43565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumMemberAttribute_set_Value_mF6DD8C5291188BCA38A2073FDEA4C76EF1692EB6 (EnumMemberAttribute_t65B5E85E642C96791DD6AE5EAD0276350954126F* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{

@@ -11692,7 +11692,7 @@ inline int32_t Array_IndexOfImpl_TisStyleValueManaged_t68DFBEC1594279E4DC56634FD
 {
 	return ((  int32_t (*) (StyleValueManagedU5BU5D_tA36DD573E215D5C8EE43B4BD109BE2AA3902E1E9*, StyleValueManaged_t68DFBEC1594279E4DC56634FD5092318D1E9A5F4, int32_t, int32_t, const RuntimeMethod*))Array_IndexOfImpl_TisStyleValueManaged_t68DFBEC1594279E4DC56634FD5092318D1E9A5F4_m456E0BD567016717FC61B336EF549D7D0044DD57_gshared)(___0_array, ___1_value, ___2_startIndex, ___3_count, method);
 }
-// Method Definition Index: 39975
+// Method Definition Index: 39979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__GetStatic_TisIl2CppFullySharedGenericAny_m5FA6F86B221B6AD76DDD71818F721187D59BFC38_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -11724,7 +11724,7 @@ IL_001e:
 		return;
 	}
 }
-// Method Definition Index: 39970
+// Method Definition Index: 39974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__Set_TisNullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01_mBF01EF05DAD9062C2D677C8791CB2F5D5B587865_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, intptr_t ___0_fieldID, Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___1_val, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -12385,7 +12385,7 @@ IL_0428:
 		return;
 	}
 }
-// Method Definition Index: 39969
+// Method Definition Index: 39973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__Set_TisNullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01_m588048682A8550C8A7D53FB1EC0E19CA3400A083_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___1_val, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -12405,7 +12405,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__Set_TisNullable_1_t78
 		return;
 	}
 }
-// Method Definition Index: 39970
+// Method Definition Index: 39974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__Set_TisNullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28_m39B6D68D049F0ABC3C404A045248843FC78FD666_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, intptr_t ___0_fieldID, Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___1_val, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -13066,7 +13066,7 @@ IL_0428:
 		return;
 	}
 }
-// Method Definition Index: 39969
+// Method Definition Index: 39973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__Set_TisNullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28_m69F8E71F23F08B4A156A785079BA61F13B8015C4_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___1_val, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -13086,7 +13086,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__Set_TisNullable_1_tCF
 		return;
 	}
 }
-// Method Definition Index: 39970
+// Method Definition Index: 39974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__Set_TisRuntimeObject_mABBB8DD3A845088F4B21210E68DF4452D5613B26_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, intptr_t ___0_fieldID, RuntimeObject* ___1_val, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -13719,7 +13719,7 @@ IL_0428:
 		return;
 	}
 }
-// Method Definition Index: 39969
+// Method Definition Index: 39973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__Set_TisRuntimeObject_m09050068CA4B636ECB8442570E39E20D1CD4BF4C_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, RuntimeObject* ___1_val, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -13739,7 +13739,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__Set_TisRuntimeObject_
 		return;
 	}
 }
-// Method Definition Index: 39970
+// Method Definition Index: 39974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__Set_TisIl2CppFullySharedGenericAny_m84E47B5A5FF416288BF85C7F79F287D6FD90356F_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, intptr_t ___0_fieldID, Il2CppFullySharedGenericAny ___1_val, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -14407,7 +14407,7 @@ IL_0428:
 		return;
 	}
 }
-// Method Definition Index: 39969
+// Method Definition Index: 39973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__Set_TisIl2CppFullySharedGenericAny_m1AF6344C2EF172B8799D007F4BAC3ECDC182BC22_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, Il2CppFullySharedGenericAny ___1_val, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -14429,7 +14429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__Set_TisIl2CppFullySha
 		return;
 	}
 }
-// Method Definition Index: 39978
+// Method Definition Index: 39982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__SetStatic_TisIl2CppFullySharedGenericAny_m07564225CF639F8502927F2D783809867A34367A_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, intptr_t ___0_fieldID, Il2CppFullySharedGenericAny ___1_val, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -15097,7 +15097,7 @@ IL_0426:
 		return;
 	}
 }
-// Method Definition Index: 39977
+// Method Definition Index: 39981
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__SetStatic_TisIl2CppFullySharedGenericAny_mA923EF05918D13946E2452B81B496229D8B952FB_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, Il2CppFullySharedGenericAny ___1_val, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15119,7 +15119,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__SetStatic_TisIl2CppFu
 		return;
 	}
 }
-// Method Definition Index: 43219
+// Method Definition Index: 43223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObjectExtension_SetIfNotNull_TisNullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01_mAB73113D436AE1B12FE537B067F891708A55AC1E_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_javaObject, String_t* ___1_property, Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___2_value, String_t* ___3_valueClass, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -15214,7 +15214,7 @@ IL_003e:
 		return;
 	}
 }
-// Method Definition Index: 43219
+// Method Definition Index: 43223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObjectExtension_SetIfNotNull_TisNullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28_m79238FC169A805C3F099BD4A2E30EEA0001E6E02_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_javaObject, String_t* ___1_property, Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___2_value, String_t* ___3_valueClass, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -15309,7 +15309,7 @@ IL_003e:
 		return;
 	}
 }
-// Method Definition Index: 43219
+// Method Definition Index: 43223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObjectExtension_SetIfNotNull_TisRuntimeObject_m0A4F30AB0486679DCB27B2CA16BE5167B6720E8C_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_javaObject, String_t* ___1_property, RuntimeObject* ___2_value, String_t* ___3_valueClass, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -15402,7 +15402,7 @@ IL_003e:
 		return;
 	}
 }
-// Method Definition Index: 43219
+// Method Definition Index: 43223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObjectExtension_SetIfNotNull_TisIl2CppFullySharedGenericAny_mA37DF7CA6078A2BA7ABB907589F04C1049C337B2_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_javaObject, String_t* ___1_property, Il2CppFullySharedGenericAny ___2_value, String_t* ___3_valueClass, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))

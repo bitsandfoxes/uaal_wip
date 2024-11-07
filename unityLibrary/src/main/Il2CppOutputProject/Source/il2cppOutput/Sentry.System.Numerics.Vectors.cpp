@@ -1177,7 +1177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Guid_GetHashCode_m239B7679BB9ED5A207B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 42429
+// Method Definition Index: 42433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ResourceManager_t311D6D32A753224008949B32CC6A5468C47498EB* SR_get_ResourceManager_m27A49BCC9EE261A0E495B782E81F548EEE68519C (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1217,14 +1217,14 @@ IL_0019:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 42430
+// Method Definition Index: 42434
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SR_UsingResourceKeys_mB9F1F0E8E547312C71A03F2E644EB09843B3785F (const RuntimeMethod* method) 
 {
 	{
 		return (bool)0;
 	}
 }
-// Method Definition Index: 42431
+// Method Definition Index: 42435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_GetResourceString_mF24AAE0901EFC50077BC6CFFC409FA3F9A05F03C (String_t* ___0_resourceKey, String_t* ___1_defaultString, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1297,7 +1297,7 @@ IL_0022:
 		return L_9;
 	}
 }
-// Method Definition Index: 42432
+// Method Definition Index: 42436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_Format_m0D5172EDE1F2059498B32F15ED06CD9076C39494 (String_t* ___0_resourceFormat, RuntimeObject* ___1_p1, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1343,7 +1343,7 @@ IL_0020:
 		return L_9;
 	}
 }
-// Method Definition Index: 42433
+// Method Definition Index: 42437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* SR_get_ResourceType_m5C8C08FF20AACD7454A14C9C3DB8BA11852E6FC2 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1358,7 +1358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* SR_get_ResourceType_m5C8C08FF20AACD74
 		return L_0;
 	}
 }
-// Method Definition Index: 42434
+// Method Definition Index: 42438
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_get_Arg_ArgumentOutOfRangeException_m471950D793C852A7F65AADBFFAA5E2F826360039 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1375,7 +1375,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_get_Arg_ArgumentOutOfRangeExcept
 		return L_0;
 	}
 }
-// Method Definition Index: 42435
+// Method Definition Index: 42439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_get_Arg_TypeNotSupported_mC41A63B20CBF2D69EA56D4BC74FE19E5FD01DA34 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1392,7 +1392,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_get_Arg_TypeNotSupported_mC41A63
 		return L_0;
 	}
 }
-// Method Definition Index: 42436
+// Method Definition Index: 42440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SR__cctor_m7A1E07F7B248CF81BC1E12A267DA13444BE57147 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1420,7 +1420,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SR__cctor_m7A1E07F7B248CF81BC1E12A267DA1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 42437
+// Method Definition Index: 42441
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntrinsicAttribute__ctor_m1BACA412E5A811C016115D02590BB0D2BEA045CE (IntrinsicAttribute_t0B62D93013EB89B1A63F8BBCAA47252D417FA609* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1436,7 +1436,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntrinsicAttribute__ctor_m1BACA412E5A811
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 42438
+// Method Definition Index: 42442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ConstantHelper_GetByteWithAllBitsSet_m55C48FFEEDF4A38E8C375824D2250A858ECB3D37 (const RuntimeMethod* method) 
 {
 	uint8_t V_0 = 0x0;
@@ -1447,7 +1447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ConstantHelper_GetByteWithAllBitsSet_
 		return L_0;
 	}
 }
-// Method Definition Index: 42439
+// Method Definition Index: 42443
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int8_t ConstantHelper_GetSByteWithAllBitsSet_mC3279AF5EBE722B4218512D1449B44C597003246 (const RuntimeMethod* method) 
 {
 	int8_t V_0 = 0x0;
@@ -1458,7 +1458,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int8_t ConstantHelper_GetSByteWithAllBitsSet_
 		return L_0;
 	}
 }
-// Method Definition Index: 42440
+// Method Definition Index: 42444
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t ConstantHelper_GetUInt16WithAllBitsSet_mED04425150779278FC27B18F090B756874B21602 (const RuntimeMethod* method) 
 {
 	uint16_t V_0 = 0;
@@ -1469,7 +1469,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t ConstantHelper_GetUInt16WithAllBitsS
 		return L_0;
 	}
 }
-// Method Definition Index: 42441
+// Method Definition Index: 42445
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t ConstantHelper_GetInt16WithAllBitsSet_m1FCCE8796481FED7EAF9A61D6C5241ABD88226DF (const RuntimeMethod* method) 
 {
 	int16_t V_0 = 0;
@@ -1480,7 +1480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t ConstantHelper_GetInt16WithAllBitsSet
 		return L_0;
 	}
 }
-// Method Definition Index: 42442
+// Method Definition Index: 42446
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t ConstantHelper_GetUInt32WithAllBitsSet_mD038BB378C86ED321DCF8076414386CBFB9470D5 (const RuntimeMethod* method) 
 {
 	uint32_t V_0 = 0;
@@ -1491,7 +1491,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t ConstantHelper_GetUInt32WithAllBitsS
 		return L_0;
 	}
 }
-// Method Definition Index: 42443
+// Method Definition Index: 42447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ConstantHelper_GetInt32WithAllBitsSet_m0222F14141650FAE91D675253C0155A8C924202F (const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -1502,7 +1502,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ConstantHelper_GetInt32WithAllBitsSet
 		return L_0;
 	}
 }
-// Method Definition Index: 42444
+// Method Definition Index: 42448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ConstantHelper_GetUInt64WithAllBitsSet_m1038CDC8C1361C829F11D13D89E9E05C87A930EC (const RuntimeMethod* method) 
 {
 	uint64_t V_0 = 0;
@@ -1513,7 +1513,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ConstantHelper_GetUInt64WithAllBitsS
 		return L_0;
 	}
 }
-// Method Definition Index: 42445
+// Method Definition Index: 42449
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t ConstantHelper_GetInt64WithAllBitsSet_m994E1773AB317F78D7B6AAEDBF1718615F64E02B (const RuntimeMethod* method) 
 {
 	int64_t V_0 = 0;
@@ -1524,7 +1524,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t ConstantHelper_GetInt64WithAllBitsSet
 		return L_0;
 	}
 }
-// Method Definition Index: 42446
+// Method Definition Index: 42450
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ConstantHelper_GetSingleWithAllBitsSet_m2EA9AAC5A3B257057885BE159E1732B7DF02BC21 (const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -1535,7 +1535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ConstantHelper_GetSingleWithAllBitsSet_
 		return L_0;
 	}
 }
-// Method Definition Index: 42447
+// Method Definition Index: 42451
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double ConstantHelper_GetDoubleWithAllBitsSet_m823D428B9FB4E1CFFA7C1D8A9D02138AD0CD6D0B (const RuntimeMethod* method) 
 {
 	double V_0 = 0.0;
@@ -1562,7 +1562,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double ConstantHelper_GetDoubleWithAllBitsSet
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 42475
+// Method Definition Index: 42479
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vector_get_IsHardwareAccelerated_m590B1275BA4FA71ED17844DF723D167EC2AF578C (const RuntimeMethod* method) 
 {
 	{
@@ -1577,7 +1577,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vector_get_IsHardwareAccelerated_m590B12
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 42479
+// Method Definition Index: 42483
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HashHelpers_Combine_m017AFAE08D7A90F0F40A499F68A91B1FBCBD4FD3 (int32_t ___0_h1, int32_t ___1_h2, const RuntimeMethod* method) 
 {
 	uint32_t V_0 = 0;
@@ -1591,7 +1591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HashHelpers_Combine_m017AFAE08D7A90F0
 		return ((int32_t)(((int32_t)il2cpp_codegen_add((int32_t)L_2, L_3))^L_4));
 	}
 }
-// Method Definition Index: 42480
+// Method Definition Index: 42484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashHelpers__cctor_mB10232E4A5664252EFECCD2A7C4A3E1535F14F66 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1615,7 +1615,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashHelpers__cctor_mB10232E4A5664252EFEC
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 42433
+// Method Definition Index: 42437
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Type_t* SR_get_ResourceType_m5C8C08FF20AACD7454A14C9C3DB8BA11852E6FC2_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

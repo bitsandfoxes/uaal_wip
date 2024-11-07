@@ -398,7 +398,6 @@ IL2CPP_EXTERN_C RuntimeClass* NotImplementedException_t6366FE4DCF15094C51F4833B9
 IL2CPP_EXTERN_C RuntimeClass* VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral1E4195C98D0F7A444FE7C7FE77BDCA5269926005;
 IL2CPP_EXTERN_C String_t* _stringLiteral29F54E172E1EF5C4CB5C016D28D211A6D663C41A;
-IL2CPP_EXTERN_C String_t* _stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB;
 IL2CPP_EXTERN_C String_t* _stringLiteral3CFBA36D3B441C5648A2965BB079FCEDCC23A5FA;
 IL2CPP_EXTERN_C String_t* _stringLiteral3FA0E7D52F8A243F0A9D9CE53BBCDC4683B63B63;
 IL2CPP_EXTERN_C String_t* _stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8;
@@ -1725,7 +1724,6 @@ struct BaseField_1_t33E37D3A182C1DDE900EA4039FE03BF68FD0CD26  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	bool ___m_Value;
 	Func_2_t66AC14B29DD8B1DDD05693A14E55CF7707C762DB* ___onValidateValue;
@@ -1744,7 +1742,6 @@ struct BaseField_1_tA356484A7C6C9D9222E1295A10103E91BF7CE706  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___m_Value;
 	Func_2_t6D961B754F6F517E8D6D744484D805ED47ADFCBA* ___onValidateValue;
@@ -1763,7 +1760,6 @@ struct BaseField_1_t3BA8DE5143F5CC41D76D2A54E485E51F0DA1E619  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	BoundsInt_t4E757DE5EFF9FCB42000F173360DDC63B5585485 ___m_Value;
 	Func_2_t51BF04753FE2F710F0B2FDCC296519FDBC882E13* ___onValidateValue;
@@ -1782,7 +1778,6 @@ struct BaseField_1_tE421F7A771C0D353CD97C6346D02FDF717CF55A8  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	double ___m_Value;
 	Func_2_t0221E9CE1FF8B8FE59AED052D562790B96F13B3D* ___onValidateValue;
@@ -1801,7 +1796,6 @@ struct BaseField_1_t2E0D58407FAF1252EBC323E19519CF157A58BA5A  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 ___m_Value;
 	Func_2_t4F09F23FA74A4C653F6AA364AC3C5B2C664A6A13* ___onValidateValue;
@@ -1820,7 +1814,6 @@ struct BaseField_1_tB351B262306464787F5A31B33CDC431E89796615  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	int32_t ___m_Value;
 	Func_2_t2FDA873D8482C79555CFB05233D610E8F1C7C354* ___onValidateValue;
@@ -1839,7 +1832,6 @@ struct BaseField_1_t1D211F1196D45DED55807E268A8B0E0D9F5D5088  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	int64_t ___m_Value;
 	Func_2_t0B663B3C621B47C182DE71861BC7D4AFC8CEBD62* ___onValidateValue;
@@ -1858,7 +1850,6 @@ struct BaseField_1_t5B07C4F16426F3DB4A05D137F6E0A910FAC6B21B  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	RuntimeObject* ___m_Value;
 	Func_2_tACBF5A1656250800CE861707354491F0611F6624* ___onValidateValue;
@@ -1877,7 +1868,6 @@ struct BaseField_1_t20F941B6C24CA56850F3E1E4DAE464ED52B22A9B  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___m_Value;
 	Func_2_tB7886AF500F23F9AE78D86E5EBADFE0BBD37A1DA* ___onValidateValue;
@@ -1896,7 +1886,6 @@ struct BaseField_1_t9D3CB6D9190E9D20C857B1EE2F77C70A5B787F56  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 ___m_Value;
 	Func_2_t44F0BC956892FDA3EB80198FA179AD4CE456E0AA* ___onValidateValue;
@@ -1915,7 +1904,6 @@ struct BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	float ___m_Value;
 	Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* ___onValidateValue;
@@ -1934,7 +1922,6 @@ struct BaseField_1_tA1F41315EF3CC62659FC6306606C7CCA98D85C9F  : public BindableE
 	float ___m_LabelWidthRatio;
 	float ___m_LabelExtraPadding;
 	float ___m_LabelBaseMinWidth;
-	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_Value;
 	Func_2_t45386234ABB726FFBC7310E0192AE01A58728C52* ___onValidateValue;
@@ -2151,7 +2138,6 @@ struct BaseField_1_t33E37D3A182C1DDE900EA4039FE03BF68FD0CD26_StaticFields
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelWidthRatioProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraPaddingProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelBaseMinWidthProperty;
-	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraContextWidthProperty;
 };
 struct BaseField_1_tA356484A7C6C9D9222E1295A10103E91BF7CE706_StaticFields
 {
@@ -2171,7 +2157,6 @@ struct BaseField_1_tA356484A7C6C9D9222E1295A10103E91BF7CE706_StaticFields
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelWidthRatioProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraPaddingProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelBaseMinWidthProperty;
-	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraContextWidthProperty;
 };
 struct BaseField_1_t3BA8DE5143F5CC41D76D2A54E485E51F0DA1E619_StaticFields
 {
@@ -2191,7 +2176,6 @@ struct BaseField_1_t3BA8DE5143F5CC41D76D2A54E485E51F0DA1E619_StaticFields
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelWidthRatioProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraPaddingProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelBaseMinWidthProperty;
-	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraContextWidthProperty;
 };
 struct BaseField_1_tE421F7A771C0D353CD97C6346D02FDF717CF55A8_StaticFields
 {
@@ -2211,7 +2195,6 @@ struct BaseField_1_tE421F7A771C0D353CD97C6346D02FDF717CF55A8_StaticFields
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelWidthRatioProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraPaddingProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelBaseMinWidthProperty;
-	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraContextWidthProperty;
 };
 struct BaseField_1_t2E0D58407FAF1252EBC323E19519CF157A58BA5A_StaticFields
 {
@@ -2231,7 +2214,6 @@ struct BaseField_1_t2E0D58407FAF1252EBC323E19519CF157A58BA5A_StaticFields
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelWidthRatioProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraPaddingProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelBaseMinWidthProperty;
-	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraContextWidthProperty;
 };
 struct BaseField_1_tB351B262306464787F5A31B33CDC431E89796615_StaticFields
 {
@@ -2251,7 +2233,6 @@ struct BaseField_1_tB351B262306464787F5A31B33CDC431E89796615_StaticFields
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelWidthRatioProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraPaddingProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelBaseMinWidthProperty;
-	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraContextWidthProperty;
 };
 struct BaseField_1_t1D211F1196D45DED55807E268A8B0E0D9F5D5088_StaticFields
 {
@@ -2271,7 +2252,6 @@ struct BaseField_1_t1D211F1196D45DED55807E268A8B0E0D9F5D5088_StaticFields
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelWidthRatioProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraPaddingProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelBaseMinWidthProperty;
-	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraContextWidthProperty;
 };
 struct BaseField_1_t5B07C4F16426F3DB4A05D137F6E0A910FAC6B21B_StaticFields
 {
@@ -2291,7 +2271,6 @@ struct BaseField_1_t5B07C4F16426F3DB4A05D137F6E0A910FAC6B21B_StaticFields
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelWidthRatioProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraPaddingProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelBaseMinWidthProperty;
-	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraContextWidthProperty;
 };
 struct BaseField_1_t20F941B6C24CA56850F3E1E4DAE464ED52B22A9B_StaticFields
 {
@@ -2311,7 +2290,6 @@ struct BaseField_1_t20F941B6C24CA56850F3E1E4DAE464ED52B22A9B_StaticFields
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelWidthRatioProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraPaddingProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelBaseMinWidthProperty;
-	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraContextWidthProperty;
 };
 struct BaseField_1_t9D3CB6D9190E9D20C857B1EE2F77C70A5B787F56_StaticFields
 {
@@ -2331,7 +2309,6 @@ struct BaseField_1_t9D3CB6D9190E9D20C857B1EE2F77C70A5B787F56_StaticFields
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelWidthRatioProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraPaddingProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelBaseMinWidthProperty;
-	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraContextWidthProperty;
 };
 struct BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7_StaticFields
 {
@@ -2351,7 +2328,6 @@ struct BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7_StaticFields
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelWidthRatioProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraPaddingProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelBaseMinWidthProperty;
-	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraContextWidthProperty;
 };
 struct BaseField_1_tA1F41315EF3CC62659FC6306606C7CCA98D85C9F_StaticFields
 {
@@ -2371,7 +2347,6 @@ struct BaseField_1_tA1F41315EF3CC62659FC6306606C7CCA98D85C9F_StaticFields
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelWidthRatioProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraPaddingProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelBaseMinWidthProperty;
-	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraContextWidthProperty;
 };
 struct BaseField_1_t138FF51687BD46C69284C164DC2E54C531A39AAA_StaticFields
 {
@@ -2391,7 +2366,6 @@ struct BaseField_1_t138FF51687BD46C69284C164DC2E54C531A39AAA_StaticFields
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelWidthRatioProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraPaddingProperty;
 	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelBaseMinWidthProperty;
-	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraContextWidthProperty;
 };
 struct TextElement_tD56C5044CCC5552285DC8A9950CC60448C80FEE0_StaticFields
 {
@@ -6456,7 +6430,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnAttachToPanel_mE828328F7C7
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_001b:
@@ -6476,7 +6450,7 @@ IL_001b:
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_0033:
@@ -6566,7 +6540,7 @@ IL_0090:
 		String_t* L_22 = ((BaseField_1_t33E37D3A182C1DDE900EA4039FE03BF68FD0CD26_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___inspectorFieldUssClassName;
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this);
 		VisualElement_RemoveFromClassList_mA7A2EC202004DFCBF38C12B70C6218BF40D21220((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this, L_22, NULL);
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_00ae:
@@ -6574,7 +6548,6 @@ IL_00ae:
 		__this->___m_LabelWidthRatio = (0.449999988f);
 		__this->___m_LabelExtraPadding = (37.0f);
 		__this->___m_LabelBaseMinWidth = (123.0f);
-		__this->___m_LabelExtraContextWidth = (1.0f);
 		EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F* L_23 = (EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F*)il2cpp_codegen_object_new(EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F_il2cpp_TypeInfo_var);
 		EventCallback_1__ctor_mA03324C646FE93909402ABA6C660D14D22ACE4F8(L_23, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 27)), NULL);
 		NullCheck((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this);
@@ -6589,7 +6562,7 @@ IL_00ae:
 		CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this, L_25, (int32_t)0, CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F_RuntimeMethod_var);
 	}
 
-IL_010e:
+IL_0103:
 	{
 		return;
 	}
@@ -6740,11 +6713,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_m58AA9
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
-	float V_3 = 0.0f;
+	bool V_3 = false;
 	bool V_4 = false;
 	bool V_5 = false;
-	bool V_6 = false;
-	bool V_7 = false;
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_0 = ___0_evt;
 		NullCheck(L_0);
@@ -6755,11 +6726,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_m58AA9
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_1, L_2, (&V_0));
-		V_4 = L_3;
-		bool L_4 = V_4;
+		V_3 = L_3;
+		bool L_4 = V_3;
 		if (!L_4)
 		{
-			goto IL_0022;
+			goto IL_0020;
 		}
 	}
 	{
@@ -6767,7 +6738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_m58AA9
 		__this->___m_LabelWidthRatio = L_5;
 	}
 
-IL_0022:
+IL_0020:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_6 = ___0_evt;
 		NullCheck(L_6);
@@ -6778,11 +6749,11 @@ IL_0022:
 		NullCheck(L_7);
 		bool L_9;
 		L_9 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_7, L_8, (&V_1));
-		V_5 = L_9;
-		bool L_10 = V_5;
+		V_4 = L_9;
+		bool L_10 = V_4;
 		if (!L_10)
 		{
-			goto IL_0043;
+			goto IL_0041;
 		}
 	}
 	{
@@ -6790,7 +6761,7 @@ IL_0022:
 		__this->___m_LabelExtraPadding = L_11;
 	}
 
-IL_0043:
+IL_0041:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_12 = ___0_evt;
 		NullCheck(L_12);
@@ -6801,11 +6772,11 @@ IL_0043:
 		NullCheck(L_13);
 		bool L_15;
 		L_15 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_13, L_14, (&V_2));
-		V_6 = L_15;
-		bool L_16 = V_6;
+		V_5 = L_15;
+		bool L_16 = V_5;
 		if (!L_16)
 		{
-			goto IL_0064;
+			goto IL_0062;
 		}
 	}
 	{
@@ -6813,30 +6784,7 @@ IL_0043:
 		__this->___m_LabelBaseMinWidth = L_17;
 	}
 
-IL_0064:
-	{
-		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_18 = ___0_evt;
-		NullCheck(L_18);
-		RuntimeObject* L_19;
-		L_19 = CustomStyleResolvedEvent_get_customStyle_m0F9CBEBB0EAF766F4A913974871BB5B4DCE1D3F4(L_18, NULL);
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 1));
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_20 = ((BaseField_1_t33E37D3A182C1DDE900EA4039FE03BF68FD0CD26_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty;
-		NullCheck(L_19);
-		bool L_21;
-		L_21 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_19, L_20, (&V_3));
-		V_7 = L_21;
-		bool L_22 = V_7;
-		if (!L_22)
-		{
-			goto IL_0085;
-		}
-	}
-	{
-		float L_23 = V_3;
-		__this->___m_LabelExtraContextWidth = L_23;
-	}
-
-IL_0085:
+IL_0062:
 	{
 		BaseField_1_AlignLabel_mD82FC8C65D395DA1BA337B93898A4868512B1CB7(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 32));
 		return;
@@ -6904,7 +6852,7 @@ IL_001a:
 		}
 	}
 	{
-		goto IL_0122;
+		goto IL_0120;
 	}
 
 IL_0026:
@@ -6988,10 +6936,11 @@ IL_009a:
 		NullCheck(L_31);
 		float L_32;
 		L_32 = InterfaceFuncInvoker0< float >::Invoke(77, IResolvedStyle_t6A3530BA6147B091C278593F21F86B09CD42BE89_il2cpp_TypeInfo_var, L_31);
-		float L_33 = __this->___m_LabelExtraContextWidth;
-		float L_34 = __this->___m_LabelWidthRatio;
+		float L_33 = __this->___m_LabelWidthRatio;
+		float L_34;
+		L_34 = ceilf(((float)il2cpp_codegen_multiply(L_32, L_33)));
 		float L_35 = V_0;
-		V_4 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_32, L_33)), L_34)), L_35));
+		V_4 = ((float)il2cpp_codegen_subtract(L_34, L_35));
 		Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* L_36;
 		L_36 = BaseField_1_get_labelElement_mA164849E98B4DCBCBD6BEFBE33311022B1967769_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)L_36);
@@ -7007,7 +6956,7 @@ IL_009a:
 		bool L_41 = V_7;
 		if (!L_41)
 		{
-			goto IL_0122;
+			goto IL_0120;
 		}
 	}
 	{
@@ -7025,7 +6974,7 @@ IL_009a:
 		InterfaceActionInvoker1< StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 >::Invoke(163, IStyle_t4FD66C97CA5F46BFE328FED0C65277A37E0A89F7_il2cpp_TypeInfo_var, L_43, L_46);
 	}
 
-IL_0122:
+IL_0120:
 	{
 		return;
 	}
@@ -7316,7 +7265,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_m17A1BB878590DCB89048
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1E4195C98D0F7A444FE7C7FE77BDCA5269926005);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral29F54E172E1EF5C4CB5C016D28D211A6D663C41A);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3CFBA36D3B441C5648A2965BB079FCEDCC23A5FA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4DE568C91EA99022F140EDED215DEE02E9BA48AA);
@@ -7485,11 +7433,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_m17A1BB878590DCB89048
 		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_20), _stringLiteral7F3AE879E2E7A8D115FD02ECC6AA71646A023F99, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		((BaseField_1_t33E37D3A182C1DDE900EA4039FE03BF68FD0CD26_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty = L_20;
 		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_t33E37D3A182C1DDE900EA4039FE03BF68FD0CD26_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_21;
-		memset((&L_21), 0, sizeof(L_21));
-		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_21), _stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
-		((BaseField_1_t33E37D3A182C1DDE900EA4039FE03BF68FD0CD26_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty = L_21;
-		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_t33E37D3A182C1DDE900EA4039FE03BF68FD0CD26_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
 		return;
 	}
 }
@@ -8254,7 +8197,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnAttachToPanel_m2F846D207D8
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_001b:
@@ -8274,7 +8217,7 @@ IL_001b:
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_0033:
@@ -8364,7 +8307,7 @@ IL_0090:
 		String_t* L_22 = ((BaseField_1_tA356484A7C6C9D9222E1295A10103E91BF7CE706_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___inspectorFieldUssClassName;
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this);
 		VisualElement_RemoveFromClassList_mA7A2EC202004DFCBF38C12B70C6218BF40D21220((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this, L_22, NULL);
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_00ae:
@@ -8372,7 +8315,6 @@ IL_00ae:
 		__this->___m_LabelWidthRatio = (0.449999988f);
 		__this->___m_LabelExtraPadding = (37.0f);
 		__this->___m_LabelBaseMinWidth = (123.0f);
-		__this->___m_LabelExtraContextWidth = (1.0f);
 		EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F* L_23 = (EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F*)il2cpp_codegen_object_new(EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F_il2cpp_TypeInfo_var);
 		EventCallback_1__ctor_mA03324C646FE93909402ABA6C660D14D22ACE4F8(L_23, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 27)), NULL);
 		NullCheck((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this);
@@ -8387,7 +8329,7 @@ IL_00ae:
 		CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this, L_25, (int32_t)0, CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F_RuntimeMethod_var);
 	}
 
-IL_010e:
+IL_0103:
 	{
 		return;
 	}
@@ -8538,11 +8480,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_mB5C99
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
-	float V_3 = 0.0f;
+	bool V_3 = false;
 	bool V_4 = false;
 	bool V_5 = false;
-	bool V_6 = false;
-	bool V_7 = false;
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_0 = ___0_evt;
 		NullCheck(L_0);
@@ -8553,11 +8493,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_mB5C99
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_1, L_2, (&V_0));
-		V_4 = L_3;
-		bool L_4 = V_4;
+		V_3 = L_3;
+		bool L_4 = V_3;
 		if (!L_4)
 		{
-			goto IL_0022;
+			goto IL_0020;
 		}
 	}
 	{
@@ -8565,7 +8505,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_mB5C99
 		__this->___m_LabelWidthRatio = L_5;
 	}
 
-IL_0022:
+IL_0020:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_6 = ___0_evt;
 		NullCheck(L_6);
@@ -8576,11 +8516,11 @@ IL_0022:
 		NullCheck(L_7);
 		bool L_9;
 		L_9 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_7, L_8, (&V_1));
-		V_5 = L_9;
-		bool L_10 = V_5;
+		V_4 = L_9;
+		bool L_10 = V_4;
 		if (!L_10)
 		{
-			goto IL_0043;
+			goto IL_0041;
 		}
 	}
 	{
@@ -8588,7 +8528,7 @@ IL_0022:
 		__this->___m_LabelExtraPadding = L_11;
 	}
 
-IL_0043:
+IL_0041:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_12 = ___0_evt;
 		NullCheck(L_12);
@@ -8599,11 +8539,11 @@ IL_0043:
 		NullCheck(L_13);
 		bool L_15;
 		L_15 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_13, L_14, (&V_2));
-		V_6 = L_15;
-		bool L_16 = V_6;
+		V_5 = L_15;
+		bool L_16 = V_5;
 		if (!L_16)
 		{
-			goto IL_0064;
+			goto IL_0062;
 		}
 	}
 	{
@@ -8611,30 +8551,7 @@ IL_0043:
 		__this->___m_LabelBaseMinWidth = L_17;
 	}
 
-IL_0064:
-	{
-		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_18 = ___0_evt;
-		NullCheck(L_18);
-		RuntimeObject* L_19;
-		L_19 = CustomStyleResolvedEvent_get_customStyle_m0F9CBEBB0EAF766F4A913974871BB5B4DCE1D3F4(L_18, NULL);
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 1));
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_20 = ((BaseField_1_tA356484A7C6C9D9222E1295A10103E91BF7CE706_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty;
-		NullCheck(L_19);
-		bool L_21;
-		L_21 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_19, L_20, (&V_3));
-		V_7 = L_21;
-		bool L_22 = V_7;
-		if (!L_22)
-		{
-			goto IL_0085;
-		}
-	}
-	{
-		float L_23 = V_3;
-		__this->___m_LabelExtraContextWidth = L_23;
-	}
-
-IL_0085:
+IL_0062:
 	{
 		BaseField_1_AlignLabel_mE11DFA360FE4D65117F2FFC7ABCDB74C495EB190(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 32));
 		return;
@@ -8702,7 +8619,7 @@ IL_001a:
 		}
 	}
 	{
-		goto IL_0122;
+		goto IL_0120;
 	}
 
 IL_0026:
@@ -8786,10 +8703,11 @@ IL_009a:
 		NullCheck(L_31);
 		float L_32;
 		L_32 = InterfaceFuncInvoker0< float >::Invoke(77, IResolvedStyle_t6A3530BA6147B091C278593F21F86B09CD42BE89_il2cpp_TypeInfo_var, L_31);
-		float L_33 = __this->___m_LabelExtraContextWidth;
-		float L_34 = __this->___m_LabelWidthRatio;
+		float L_33 = __this->___m_LabelWidthRatio;
+		float L_34;
+		L_34 = ceilf(((float)il2cpp_codegen_multiply(L_32, L_33)));
 		float L_35 = V_0;
-		V_4 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_32, L_33)), L_34)), L_35));
+		V_4 = ((float)il2cpp_codegen_subtract(L_34, L_35));
 		Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* L_36;
 		L_36 = BaseField_1_get_labelElement_m1992C337CD4AFB2C9BC4D67EEA67A03C4454FFCE_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)L_36);
@@ -8805,7 +8723,7 @@ IL_009a:
 		bool L_41 = V_7;
 		if (!L_41)
 		{
-			goto IL_0122;
+			goto IL_0120;
 		}
 	}
 	{
@@ -8823,7 +8741,7 @@ IL_009a:
 		InterfaceActionInvoker1< StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 >::Invoke(163, IStyle_t4FD66C97CA5F46BFE328FED0C65277A37E0A89F7_il2cpp_TypeInfo_var, L_43, L_46);
 	}
 
-IL_0122:
+IL_0120:
 	{
 		return;
 	}
@@ -9116,7 +9034,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_m3A7BE0CA208FA0AAB363
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1E4195C98D0F7A444FE7C7FE77BDCA5269926005);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral29F54E172E1EF5C4CB5C016D28D211A6D663C41A);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3CFBA36D3B441C5648A2965BB079FCEDCC23A5FA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4DE568C91EA99022F140EDED215DEE02E9BA48AA);
@@ -9285,11 +9202,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_m3A7BE0CA208FA0AAB363
 		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_20), _stringLiteral7F3AE879E2E7A8D115FD02ECC6AA71646A023F99, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		((BaseField_1_tA356484A7C6C9D9222E1295A10103E91BF7CE706_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty = L_20;
 		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_tA356484A7C6C9D9222E1295A10103E91BF7CE706_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_21;
-		memset((&L_21), 0, sizeof(L_21));
-		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_21), _stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
-		((BaseField_1_tA356484A7C6C9D9222E1295A10103E91BF7CE706_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty = L_21;
-		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_tA356484A7C6C9D9222E1295A10103E91BF7CE706_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
 		return;
 	}
 }
@@ -10054,7 +9966,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnAttachToPanel_mD28543EEFC6
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_001b:
@@ -10074,7 +9986,7 @@ IL_001b:
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_0033:
@@ -10164,7 +10076,7 @@ IL_0090:
 		String_t* L_22 = ((BaseField_1_t3BA8DE5143F5CC41D76D2A54E485E51F0DA1E619_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___inspectorFieldUssClassName;
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this);
 		VisualElement_RemoveFromClassList_mA7A2EC202004DFCBF38C12B70C6218BF40D21220((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this, L_22, NULL);
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_00ae:
@@ -10172,7 +10084,6 @@ IL_00ae:
 		__this->___m_LabelWidthRatio = (0.449999988f);
 		__this->___m_LabelExtraPadding = (37.0f);
 		__this->___m_LabelBaseMinWidth = (123.0f);
-		__this->___m_LabelExtraContextWidth = (1.0f);
 		EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F* L_23 = (EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F*)il2cpp_codegen_object_new(EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F_il2cpp_TypeInfo_var);
 		EventCallback_1__ctor_mA03324C646FE93909402ABA6C660D14D22ACE4F8(L_23, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 27)), NULL);
 		NullCheck((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this);
@@ -10187,7 +10098,7 @@ IL_00ae:
 		CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this, L_25, (int32_t)0, CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F_RuntimeMethod_var);
 	}
 
-IL_010e:
+IL_0103:
 	{
 		return;
 	}
@@ -10338,11 +10249,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_mB9E62
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
-	float V_3 = 0.0f;
+	bool V_3 = false;
 	bool V_4 = false;
 	bool V_5 = false;
-	bool V_6 = false;
-	bool V_7 = false;
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_0 = ___0_evt;
 		NullCheck(L_0);
@@ -10353,11 +10262,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_mB9E62
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_1, L_2, (&V_0));
-		V_4 = L_3;
-		bool L_4 = V_4;
+		V_3 = L_3;
+		bool L_4 = V_3;
 		if (!L_4)
 		{
-			goto IL_0022;
+			goto IL_0020;
 		}
 	}
 	{
@@ -10365,7 +10274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_mB9E62
 		__this->___m_LabelWidthRatio = L_5;
 	}
 
-IL_0022:
+IL_0020:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_6 = ___0_evt;
 		NullCheck(L_6);
@@ -10376,11 +10285,11 @@ IL_0022:
 		NullCheck(L_7);
 		bool L_9;
 		L_9 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_7, L_8, (&V_1));
-		V_5 = L_9;
-		bool L_10 = V_5;
+		V_4 = L_9;
+		bool L_10 = V_4;
 		if (!L_10)
 		{
-			goto IL_0043;
+			goto IL_0041;
 		}
 	}
 	{
@@ -10388,7 +10297,7 @@ IL_0022:
 		__this->___m_LabelExtraPadding = L_11;
 	}
 
-IL_0043:
+IL_0041:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_12 = ___0_evt;
 		NullCheck(L_12);
@@ -10399,11 +10308,11 @@ IL_0043:
 		NullCheck(L_13);
 		bool L_15;
 		L_15 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_13, L_14, (&V_2));
-		V_6 = L_15;
-		bool L_16 = V_6;
+		V_5 = L_15;
+		bool L_16 = V_5;
 		if (!L_16)
 		{
-			goto IL_0064;
+			goto IL_0062;
 		}
 	}
 	{
@@ -10411,30 +10320,7 @@ IL_0043:
 		__this->___m_LabelBaseMinWidth = L_17;
 	}
 
-IL_0064:
-	{
-		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_18 = ___0_evt;
-		NullCheck(L_18);
-		RuntimeObject* L_19;
-		L_19 = CustomStyleResolvedEvent_get_customStyle_m0F9CBEBB0EAF766F4A913974871BB5B4DCE1D3F4(L_18, NULL);
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 1));
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_20 = ((BaseField_1_t3BA8DE5143F5CC41D76D2A54E485E51F0DA1E619_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty;
-		NullCheck(L_19);
-		bool L_21;
-		L_21 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_19, L_20, (&V_3));
-		V_7 = L_21;
-		bool L_22 = V_7;
-		if (!L_22)
-		{
-			goto IL_0085;
-		}
-	}
-	{
-		float L_23 = V_3;
-		__this->___m_LabelExtraContextWidth = L_23;
-	}
-
-IL_0085:
+IL_0062:
 	{
 		BaseField_1_AlignLabel_m9439FB0C0074D935E945390EADCD62A66B094E32(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 32));
 		return;
@@ -10502,7 +10388,7 @@ IL_001a:
 		}
 	}
 	{
-		goto IL_0122;
+		goto IL_0120;
 	}
 
 IL_0026:
@@ -10586,10 +10472,11 @@ IL_009a:
 		NullCheck(L_31);
 		float L_32;
 		L_32 = InterfaceFuncInvoker0< float >::Invoke(77, IResolvedStyle_t6A3530BA6147B091C278593F21F86B09CD42BE89_il2cpp_TypeInfo_var, L_31);
-		float L_33 = __this->___m_LabelExtraContextWidth;
-		float L_34 = __this->___m_LabelWidthRatio;
+		float L_33 = __this->___m_LabelWidthRatio;
+		float L_34;
+		L_34 = ceilf(((float)il2cpp_codegen_multiply(L_32, L_33)));
 		float L_35 = V_0;
-		V_4 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_32, L_33)), L_34)), L_35));
+		V_4 = ((float)il2cpp_codegen_subtract(L_34, L_35));
 		Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* L_36;
 		L_36 = BaseField_1_get_labelElement_mF1F76542B87FC5611B010691C809A8DA13EAB1FF_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)L_36);
@@ -10605,7 +10492,7 @@ IL_009a:
 		bool L_41 = V_7;
 		if (!L_41)
 		{
-			goto IL_0122;
+			goto IL_0120;
 		}
 	}
 	{
@@ -10623,7 +10510,7 @@ IL_009a:
 		InterfaceActionInvoker1< StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 >::Invoke(163, IStyle_t4FD66C97CA5F46BFE328FED0C65277A37E0A89F7_il2cpp_TypeInfo_var, L_43, L_46);
 	}
 
-IL_0122:
+IL_0120:
 	{
 		return;
 	}
@@ -10916,7 +10803,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_m94DBD60B8EA7FD15D417
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1E4195C98D0F7A444FE7C7FE77BDCA5269926005);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral29F54E172E1EF5C4CB5C016D28D211A6D663C41A);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3CFBA36D3B441C5648A2965BB079FCEDCC23A5FA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4DE568C91EA99022F140EDED215DEE02E9BA48AA);
@@ -11085,11 +10971,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_m94DBD60B8EA7FD15D417
 		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_20), _stringLiteral7F3AE879E2E7A8D115FD02ECC6AA71646A023F99, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		((BaseField_1_t3BA8DE5143F5CC41D76D2A54E485E51F0DA1E619_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty = L_20;
 		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_t3BA8DE5143F5CC41D76D2A54E485E51F0DA1E619_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_21;
-		memset((&L_21), 0, sizeof(L_21));
-		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_21), _stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
-		((BaseField_1_t3BA8DE5143F5CC41D76D2A54E485E51F0DA1E619_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty = L_21;
-		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_t3BA8DE5143F5CC41D76D2A54E485E51F0DA1E619_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
 		return;
 	}
 }
@@ -11851,7 +11732,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnAttachToPanel_mCC6DFE1A9FD
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_001b:
@@ -11871,7 +11752,7 @@ IL_001b:
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_0033:
@@ -11961,7 +11842,7 @@ IL_0090:
 		String_t* L_22 = ((BaseField_1_tE421F7A771C0D353CD97C6346D02FDF717CF55A8_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___inspectorFieldUssClassName;
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this);
 		VisualElement_RemoveFromClassList_mA7A2EC202004DFCBF38C12B70C6218BF40D21220((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this, L_22, NULL);
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_00ae:
@@ -11969,7 +11850,6 @@ IL_00ae:
 		__this->___m_LabelWidthRatio = (0.449999988f);
 		__this->___m_LabelExtraPadding = (37.0f);
 		__this->___m_LabelBaseMinWidth = (123.0f);
-		__this->___m_LabelExtraContextWidth = (1.0f);
 		EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F* L_23 = (EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F*)il2cpp_codegen_object_new(EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F_il2cpp_TypeInfo_var);
 		EventCallback_1__ctor_mA03324C646FE93909402ABA6C660D14D22ACE4F8(L_23, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 27)), NULL);
 		NullCheck((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this);
@@ -11984,7 +11864,7 @@ IL_00ae:
 		CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this, L_25, (int32_t)0, CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F_RuntimeMethod_var);
 	}
 
-IL_010e:
+IL_0103:
 	{
 		return;
 	}
@@ -12135,11 +12015,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_mA318E
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
-	float V_3 = 0.0f;
+	bool V_3 = false;
 	bool V_4 = false;
 	bool V_5 = false;
-	bool V_6 = false;
-	bool V_7 = false;
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_0 = ___0_evt;
 		NullCheck(L_0);
@@ -12150,11 +12028,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_mA318E
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_1, L_2, (&V_0));
-		V_4 = L_3;
-		bool L_4 = V_4;
+		V_3 = L_3;
+		bool L_4 = V_3;
 		if (!L_4)
 		{
-			goto IL_0022;
+			goto IL_0020;
 		}
 	}
 	{
@@ -12162,7 +12040,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_mA318E
 		__this->___m_LabelWidthRatio = L_5;
 	}
 
-IL_0022:
+IL_0020:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_6 = ___0_evt;
 		NullCheck(L_6);
@@ -12173,11 +12051,11 @@ IL_0022:
 		NullCheck(L_7);
 		bool L_9;
 		L_9 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_7, L_8, (&V_1));
-		V_5 = L_9;
-		bool L_10 = V_5;
+		V_4 = L_9;
+		bool L_10 = V_4;
 		if (!L_10)
 		{
-			goto IL_0043;
+			goto IL_0041;
 		}
 	}
 	{
@@ -12185,7 +12063,7 @@ IL_0022:
 		__this->___m_LabelExtraPadding = L_11;
 	}
 
-IL_0043:
+IL_0041:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_12 = ___0_evt;
 		NullCheck(L_12);
@@ -12196,11 +12074,11 @@ IL_0043:
 		NullCheck(L_13);
 		bool L_15;
 		L_15 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_13, L_14, (&V_2));
-		V_6 = L_15;
-		bool L_16 = V_6;
+		V_5 = L_15;
+		bool L_16 = V_5;
 		if (!L_16)
 		{
-			goto IL_0064;
+			goto IL_0062;
 		}
 	}
 	{
@@ -12208,30 +12086,7 @@ IL_0043:
 		__this->___m_LabelBaseMinWidth = L_17;
 	}
 
-IL_0064:
-	{
-		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_18 = ___0_evt;
-		NullCheck(L_18);
-		RuntimeObject* L_19;
-		L_19 = CustomStyleResolvedEvent_get_customStyle_m0F9CBEBB0EAF766F4A913974871BB5B4DCE1D3F4(L_18, NULL);
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 1));
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_20 = ((BaseField_1_tE421F7A771C0D353CD97C6346D02FDF717CF55A8_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty;
-		NullCheck(L_19);
-		bool L_21;
-		L_21 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_19, L_20, (&V_3));
-		V_7 = L_21;
-		bool L_22 = V_7;
-		if (!L_22)
-		{
-			goto IL_0085;
-		}
-	}
-	{
-		float L_23 = V_3;
-		__this->___m_LabelExtraContextWidth = L_23;
-	}
-
-IL_0085:
+IL_0062:
 	{
 		BaseField_1_AlignLabel_mCDF247A3B352795223740BC74258DFAA19EEC4E8(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 32));
 		return;
@@ -12299,7 +12154,7 @@ IL_001a:
 		}
 	}
 	{
-		goto IL_0122;
+		goto IL_0120;
 	}
 
 IL_0026:
@@ -12383,10 +12238,11 @@ IL_009a:
 		NullCheck(L_31);
 		float L_32;
 		L_32 = InterfaceFuncInvoker0< float >::Invoke(77, IResolvedStyle_t6A3530BA6147B091C278593F21F86B09CD42BE89_il2cpp_TypeInfo_var, L_31);
-		float L_33 = __this->___m_LabelExtraContextWidth;
-		float L_34 = __this->___m_LabelWidthRatio;
+		float L_33 = __this->___m_LabelWidthRatio;
+		float L_34;
+		L_34 = ceilf(((float)il2cpp_codegen_multiply(L_32, L_33)));
 		float L_35 = V_0;
-		V_4 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_32, L_33)), L_34)), L_35));
+		V_4 = ((float)il2cpp_codegen_subtract(L_34, L_35));
 		Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* L_36;
 		L_36 = BaseField_1_get_labelElement_mB0BE6AAB3FF10546296E18C7ED7914DAEC5D612B_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)L_36);
@@ -12402,7 +12258,7 @@ IL_009a:
 		bool L_41 = V_7;
 		if (!L_41)
 		{
-			goto IL_0122;
+			goto IL_0120;
 		}
 	}
 	{
@@ -12420,7 +12276,7 @@ IL_009a:
 		InterfaceActionInvoker1< StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 >::Invoke(163, IStyle_t4FD66C97CA5F46BFE328FED0C65277A37E0A89F7_il2cpp_TypeInfo_var, L_43, L_46);
 	}
 
-IL_0122:
+IL_0120:
 	{
 		return;
 	}
@@ -12711,7 +12567,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_m231C498DFEDC01516859
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1E4195C98D0F7A444FE7C7FE77BDCA5269926005);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral29F54E172E1EF5C4CB5C016D28D211A6D663C41A);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3CFBA36D3B441C5648A2965BB079FCEDCC23A5FA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4DE568C91EA99022F140EDED215DEE02E9BA48AA);
@@ -12880,11 +12735,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_m231C498DFEDC01516859
 		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_20), _stringLiteral7F3AE879E2E7A8D115FD02ECC6AA71646A023F99, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		((BaseField_1_tE421F7A771C0D353CD97C6346D02FDF717CF55A8_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty = L_20;
 		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_tE421F7A771C0D353CD97C6346D02FDF717CF55A8_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_21;
-		memset((&L_21), 0, sizeof(L_21));
-		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_21), _stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
-		((BaseField_1_tE421F7A771C0D353CD97C6346D02FDF717CF55A8_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty = L_21;
-		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_tE421F7A771C0D353CD97C6346D02FDF717CF55A8_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
 		return;
 	}
 }
@@ -13649,7 +13499,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnAttachToPanel_mFB654F507D8
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_001b:
@@ -13669,7 +13519,7 @@ IL_001b:
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_0033:
@@ -13759,7 +13609,7 @@ IL_0090:
 		String_t* L_22 = ((BaseField_1_t2E0D58407FAF1252EBC323E19519CF157A58BA5A_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___inspectorFieldUssClassName;
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this);
 		VisualElement_RemoveFromClassList_mA7A2EC202004DFCBF38C12B70C6218BF40D21220((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this, L_22, NULL);
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_00ae:
@@ -13767,7 +13617,6 @@ IL_00ae:
 		__this->___m_LabelWidthRatio = (0.449999988f);
 		__this->___m_LabelExtraPadding = (37.0f);
 		__this->___m_LabelBaseMinWidth = (123.0f);
-		__this->___m_LabelExtraContextWidth = (1.0f);
 		EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F* L_23 = (EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F*)il2cpp_codegen_object_new(EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F_il2cpp_TypeInfo_var);
 		EventCallback_1__ctor_mA03324C646FE93909402ABA6C660D14D22ACE4F8(L_23, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 27)), NULL);
 		NullCheck((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this);
@@ -13782,7 +13631,7 @@ IL_00ae:
 		CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this, L_25, (int32_t)0, CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F_RuntimeMethod_var);
 	}
 
-IL_010e:
+IL_0103:
 	{
 		return;
 	}
@@ -13933,11 +13782,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_mBEB3C
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
-	float V_3 = 0.0f;
+	bool V_3 = false;
 	bool V_4 = false;
 	bool V_5 = false;
-	bool V_6 = false;
-	bool V_7 = false;
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_0 = ___0_evt;
 		NullCheck(L_0);
@@ -13948,11 +13795,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_mBEB3C
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_1, L_2, (&V_0));
-		V_4 = L_3;
-		bool L_4 = V_4;
+		V_3 = L_3;
+		bool L_4 = V_3;
 		if (!L_4)
 		{
-			goto IL_0022;
+			goto IL_0020;
 		}
 	}
 	{
@@ -13960,7 +13807,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_mBEB3C
 		__this->___m_LabelWidthRatio = L_5;
 	}
 
-IL_0022:
+IL_0020:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_6 = ___0_evt;
 		NullCheck(L_6);
@@ -13971,11 +13818,11 @@ IL_0022:
 		NullCheck(L_7);
 		bool L_9;
 		L_9 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_7, L_8, (&V_1));
-		V_5 = L_9;
-		bool L_10 = V_5;
+		V_4 = L_9;
+		bool L_10 = V_4;
 		if (!L_10)
 		{
-			goto IL_0043;
+			goto IL_0041;
 		}
 	}
 	{
@@ -13983,7 +13830,7 @@ IL_0022:
 		__this->___m_LabelExtraPadding = L_11;
 	}
 
-IL_0043:
+IL_0041:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_12 = ___0_evt;
 		NullCheck(L_12);
@@ -13994,11 +13841,11 @@ IL_0043:
 		NullCheck(L_13);
 		bool L_15;
 		L_15 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_13, L_14, (&V_2));
-		V_6 = L_15;
-		bool L_16 = V_6;
+		V_5 = L_15;
+		bool L_16 = V_5;
 		if (!L_16)
 		{
-			goto IL_0064;
+			goto IL_0062;
 		}
 	}
 	{
@@ -14006,30 +13853,7 @@ IL_0043:
 		__this->___m_LabelBaseMinWidth = L_17;
 	}
 
-IL_0064:
-	{
-		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_18 = ___0_evt;
-		NullCheck(L_18);
-		RuntimeObject* L_19;
-		L_19 = CustomStyleResolvedEvent_get_customStyle_m0F9CBEBB0EAF766F4A913974871BB5B4DCE1D3F4(L_18, NULL);
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 1));
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_20 = ((BaseField_1_t2E0D58407FAF1252EBC323E19519CF157A58BA5A_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty;
-		NullCheck(L_19);
-		bool L_21;
-		L_21 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_19, L_20, (&V_3));
-		V_7 = L_21;
-		bool L_22 = V_7;
-		if (!L_22)
-		{
-			goto IL_0085;
-		}
-	}
-	{
-		float L_23 = V_3;
-		__this->___m_LabelExtraContextWidth = L_23;
-	}
-
-IL_0085:
+IL_0062:
 	{
 		BaseField_1_AlignLabel_m9DED7AC2C47569D750586614618E153F1682D944(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 32));
 		return;
@@ -14097,7 +13921,7 @@ IL_001a:
 		}
 	}
 	{
-		goto IL_0122;
+		goto IL_0120;
 	}
 
 IL_0026:
@@ -14181,10 +14005,11 @@ IL_009a:
 		NullCheck(L_31);
 		float L_32;
 		L_32 = InterfaceFuncInvoker0< float >::Invoke(77, IResolvedStyle_t6A3530BA6147B091C278593F21F86B09CD42BE89_il2cpp_TypeInfo_var, L_31);
-		float L_33 = __this->___m_LabelExtraContextWidth;
-		float L_34 = __this->___m_LabelWidthRatio;
+		float L_33 = __this->___m_LabelWidthRatio;
+		float L_34;
+		L_34 = ceilf(((float)il2cpp_codegen_multiply(L_32, L_33)));
 		float L_35 = V_0;
-		V_4 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_32, L_33)), L_34)), L_35));
+		V_4 = ((float)il2cpp_codegen_subtract(L_34, L_35));
 		Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* L_36;
 		L_36 = BaseField_1_get_labelElement_m875174E170DD6AFB0A8B436594390422E1AE5764_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)L_36);
@@ -14200,7 +14025,7 @@ IL_009a:
 		bool L_41 = V_7;
 		if (!L_41)
 		{
-			goto IL_0122;
+			goto IL_0120;
 		}
 	}
 	{
@@ -14218,7 +14043,7 @@ IL_009a:
 		InterfaceActionInvoker1< StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 >::Invoke(163, IStyle_t4FD66C97CA5F46BFE328FED0C65277A37E0A89F7_il2cpp_TypeInfo_var, L_43, L_46);
 	}
 
-IL_0122:
+IL_0120:
 	{
 		return;
 	}
@@ -14511,7 +14336,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_mC3760A5D3B73A7697A92
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1E4195C98D0F7A444FE7C7FE77BDCA5269926005);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral29F54E172E1EF5C4CB5C016D28D211A6D663C41A);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3CFBA36D3B441C5648A2965BB079FCEDCC23A5FA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4DE568C91EA99022F140EDED215DEE02E9BA48AA);
@@ -14680,11 +14504,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_mC3760A5D3B73A7697A92
 		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_20), _stringLiteral7F3AE879E2E7A8D115FD02ECC6AA71646A023F99, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		((BaseField_1_t2E0D58407FAF1252EBC323E19519CF157A58BA5A_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty = L_20;
 		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_t2E0D58407FAF1252EBC323E19519CF157A58BA5A_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_21;
-		memset((&L_21), 0, sizeof(L_21));
-		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_21), _stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
-		((BaseField_1_t2E0D58407FAF1252EBC323E19519CF157A58BA5A_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty = L_21;
-		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_t2E0D58407FAF1252EBC323E19519CF157A58BA5A_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
 		return;
 	}
 }
@@ -15446,7 +15265,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnAttachToPanel_m83EA34A870C
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_001b:
@@ -15466,7 +15285,7 @@ IL_001b:
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_0033:
@@ -15556,7 +15375,7 @@ IL_0090:
 		String_t* L_22 = ((BaseField_1_tB351B262306464787F5A31B33CDC431E89796615_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___inspectorFieldUssClassName;
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this);
 		VisualElement_RemoveFromClassList_mA7A2EC202004DFCBF38C12B70C6218BF40D21220((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this, L_22, NULL);
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_00ae:
@@ -15564,7 +15383,6 @@ IL_00ae:
 		__this->___m_LabelWidthRatio = (0.449999988f);
 		__this->___m_LabelExtraPadding = (37.0f);
 		__this->___m_LabelBaseMinWidth = (123.0f);
-		__this->___m_LabelExtraContextWidth = (1.0f);
 		EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F* L_23 = (EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F*)il2cpp_codegen_object_new(EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F_il2cpp_TypeInfo_var);
 		EventCallback_1__ctor_mA03324C646FE93909402ABA6C660D14D22ACE4F8(L_23, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 27)), NULL);
 		NullCheck((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this);
@@ -15579,7 +15397,7 @@ IL_00ae:
 		CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this, L_25, (int32_t)0, CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F_RuntimeMethod_var);
 	}
 
-IL_010e:
+IL_0103:
 	{
 		return;
 	}
@@ -15730,11 +15548,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_m72188
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
-	float V_3 = 0.0f;
+	bool V_3 = false;
 	bool V_4 = false;
 	bool V_5 = false;
-	bool V_6 = false;
-	bool V_7 = false;
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_0 = ___0_evt;
 		NullCheck(L_0);
@@ -15745,11 +15561,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_m72188
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_1, L_2, (&V_0));
-		V_4 = L_3;
-		bool L_4 = V_4;
+		V_3 = L_3;
+		bool L_4 = V_3;
 		if (!L_4)
 		{
-			goto IL_0022;
+			goto IL_0020;
 		}
 	}
 	{
@@ -15757,7 +15573,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_m72188
 		__this->___m_LabelWidthRatio = L_5;
 	}
 
-IL_0022:
+IL_0020:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_6 = ___0_evt;
 		NullCheck(L_6);
@@ -15768,11 +15584,11 @@ IL_0022:
 		NullCheck(L_7);
 		bool L_9;
 		L_9 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_7, L_8, (&V_1));
-		V_5 = L_9;
-		bool L_10 = V_5;
+		V_4 = L_9;
+		bool L_10 = V_4;
 		if (!L_10)
 		{
-			goto IL_0043;
+			goto IL_0041;
 		}
 	}
 	{
@@ -15780,7 +15596,7 @@ IL_0022:
 		__this->___m_LabelExtraPadding = L_11;
 	}
 
-IL_0043:
+IL_0041:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_12 = ___0_evt;
 		NullCheck(L_12);
@@ -15791,11 +15607,11 @@ IL_0043:
 		NullCheck(L_13);
 		bool L_15;
 		L_15 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_13, L_14, (&V_2));
-		V_6 = L_15;
-		bool L_16 = V_6;
+		V_5 = L_15;
+		bool L_16 = V_5;
 		if (!L_16)
 		{
-			goto IL_0064;
+			goto IL_0062;
 		}
 	}
 	{
@@ -15803,30 +15619,7 @@ IL_0043:
 		__this->___m_LabelBaseMinWidth = L_17;
 	}
 
-IL_0064:
-	{
-		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_18 = ___0_evt;
-		NullCheck(L_18);
-		RuntimeObject* L_19;
-		L_19 = CustomStyleResolvedEvent_get_customStyle_m0F9CBEBB0EAF766F4A913974871BB5B4DCE1D3F4(L_18, NULL);
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 1));
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_20 = ((BaseField_1_tB351B262306464787F5A31B33CDC431E89796615_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty;
-		NullCheck(L_19);
-		bool L_21;
-		L_21 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_19, L_20, (&V_3));
-		V_7 = L_21;
-		bool L_22 = V_7;
-		if (!L_22)
-		{
-			goto IL_0085;
-		}
-	}
-	{
-		float L_23 = V_3;
-		__this->___m_LabelExtraContextWidth = L_23;
-	}
-
-IL_0085:
+IL_0062:
 	{
 		BaseField_1_AlignLabel_m84887A889745FD1196544D887B1AD5E6F1500AF2(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 32));
 		return;
@@ -15894,7 +15687,7 @@ IL_001a:
 		}
 	}
 	{
-		goto IL_0122;
+		goto IL_0120;
 	}
 
 IL_0026:
@@ -15978,10 +15771,11 @@ IL_009a:
 		NullCheck(L_31);
 		float L_32;
 		L_32 = InterfaceFuncInvoker0< float >::Invoke(77, IResolvedStyle_t6A3530BA6147B091C278593F21F86B09CD42BE89_il2cpp_TypeInfo_var, L_31);
-		float L_33 = __this->___m_LabelExtraContextWidth;
-		float L_34 = __this->___m_LabelWidthRatio;
+		float L_33 = __this->___m_LabelWidthRatio;
+		float L_34;
+		L_34 = ceilf(((float)il2cpp_codegen_multiply(L_32, L_33)));
 		float L_35 = V_0;
-		V_4 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_32, L_33)), L_34)), L_35));
+		V_4 = ((float)il2cpp_codegen_subtract(L_34, L_35));
 		Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* L_36;
 		L_36 = BaseField_1_get_labelElement_mA259DEF99276E9388C0DCFB60F1CBC6572A9A39E_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)L_36);
@@ -15997,7 +15791,7 @@ IL_009a:
 		bool L_41 = V_7;
 		if (!L_41)
 		{
-			goto IL_0122;
+			goto IL_0120;
 		}
 	}
 	{
@@ -16015,7 +15809,7 @@ IL_009a:
 		InterfaceActionInvoker1< StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 >::Invoke(163, IStyle_t4FD66C97CA5F46BFE328FED0C65277A37E0A89F7_il2cpp_TypeInfo_var, L_43, L_46);
 	}
 
-IL_0122:
+IL_0120:
 	{
 		return;
 	}
@@ -16306,7 +16100,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_m63390597F0E2622438BC
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1E4195C98D0F7A444FE7C7FE77BDCA5269926005);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral29F54E172E1EF5C4CB5C016D28D211A6D663C41A);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3CFBA36D3B441C5648A2965BB079FCEDCC23A5FA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4DE568C91EA99022F140EDED215DEE02E9BA48AA);
@@ -16475,11 +16268,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_m63390597F0E2622438BC
 		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_20), _stringLiteral7F3AE879E2E7A8D115FD02ECC6AA71646A023F99, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		((BaseField_1_tB351B262306464787F5A31B33CDC431E89796615_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty = L_20;
 		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_tB351B262306464787F5A31B33CDC431E89796615_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_21;
-		memset((&L_21), 0, sizeof(L_21));
-		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_21), _stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
-		((BaseField_1_tB351B262306464787F5A31B33CDC431E89796615_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty = L_21;
-		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_tB351B262306464787F5A31B33CDC431E89796615_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
 		return;
 	}
 }
@@ -17241,7 +17029,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnAttachToPanel_m482733563DB
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_001b:
@@ -17261,7 +17049,7 @@ IL_001b:
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_0033:
@@ -17351,7 +17139,7 @@ IL_0090:
 		String_t* L_22 = ((BaseField_1_t1D211F1196D45DED55807E268A8B0E0D9F5D5088_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___inspectorFieldUssClassName;
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this);
 		VisualElement_RemoveFromClassList_mA7A2EC202004DFCBF38C12B70C6218BF40D21220((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this, L_22, NULL);
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_00ae:
@@ -17359,7 +17147,6 @@ IL_00ae:
 		__this->___m_LabelWidthRatio = (0.449999988f);
 		__this->___m_LabelExtraPadding = (37.0f);
 		__this->___m_LabelBaseMinWidth = (123.0f);
-		__this->___m_LabelExtraContextWidth = (1.0f);
 		EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F* L_23 = (EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F*)il2cpp_codegen_object_new(EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F_il2cpp_TypeInfo_var);
 		EventCallback_1__ctor_mA03324C646FE93909402ABA6C660D14D22ACE4F8(L_23, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 27)), NULL);
 		NullCheck((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this);
@@ -17374,7 +17161,7 @@ IL_00ae:
 		CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this, L_25, (int32_t)0, CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F_RuntimeMethod_var);
 	}
 
-IL_010e:
+IL_0103:
 	{
 		return;
 	}
@@ -17525,11 +17312,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_m05E2A
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
-	float V_3 = 0.0f;
+	bool V_3 = false;
 	bool V_4 = false;
 	bool V_5 = false;
-	bool V_6 = false;
-	bool V_7 = false;
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_0 = ___0_evt;
 		NullCheck(L_0);
@@ -17540,11 +17325,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_m05E2A
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_1, L_2, (&V_0));
-		V_4 = L_3;
-		bool L_4 = V_4;
+		V_3 = L_3;
+		bool L_4 = V_3;
 		if (!L_4)
 		{
-			goto IL_0022;
+			goto IL_0020;
 		}
 	}
 	{
@@ -17552,7 +17337,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_m05E2A
 		__this->___m_LabelWidthRatio = L_5;
 	}
 
-IL_0022:
+IL_0020:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_6 = ___0_evt;
 		NullCheck(L_6);
@@ -17563,11 +17348,11 @@ IL_0022:
 		NullCheck(L_7);
 		bool L_9;
 		L_9 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_7, L_8, (&V_1));
-		V_5 = L_9;
-		bool L_10 = V_5;
+		V_4 = L_9;
+		bool L_10 = V_4;
 		if (!L_10)
 		{
-			goto IL_0043;
+			goto IL_0041;
 		}
 	}
 	{
@@ -17575,7 +17360,7 @@ IL_0022:
 		__this->___m_LabelExtraPadding = L_11;
 	}
 
-IL_0043:
+IL_0041:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_12 = ___0_evt;
 		NullCheck(L_12);
@@ -17586,11 +17371,11 @@ IL_0043:
 		NullCheck(L_13);
 		bool L_15;
 		L_15 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_13, L_14, (&V_2));
-		V_6 = L_15;
-		bool L_16 = V_6;
+		V_5 = L_15;
+		bool L_16 = V_5;
 		if (!L_16)
 		{
-			goto IL_0064;
+			goto IL_0062;
 		}
 	}
 	{
@@ -17598,30 +17383,7 @@ IL_0043:
 		__this->___m_LabelBaseMinWidth = L_17;
 	}
 
-IL_0064:
-	{
-		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_18 = ___0_evt;
-		NullCheck(L_18);
-		RuntimeObject* L_19;
-		L_19 = CustomStyleResolvedEvent_get_customStyle_m0F9CBEBB0EAF766F4A913974871BB5B4DCE1D3F4(L_18, NULL);
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 1));
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_20 = ((BaseField_1_t1D211F1196D45DED55807E268A8B0E0D9F5D5088_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty;
-		NullCheck(L_19);
-		bool L_21;
-		L_21 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_19, L_20, (&V_3));
-		V_7 = L_21;
-		bool L_22 = V_7;
-		if (!L_22)
-		{
-			goto IL_0085;
-		}
-	}
-	{
-		float L_23 = V_3;
-		__this->___m_LabelExtraContextWidth = L_23;
-	}
-
-IL_0085:
+IL_0062:
 	{
 		BaseField_1_AlignLabel_mD8A4F42356AD6ABA3237FCCFF55B9CF55D5B5CE0(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 32));
 		return;
@@ -17689,7 +17451,7 @@ IL_001a:
 		}
 	}
 	{
-		goto IL_0122;
+		goto IL_0120;
 	}
 
 IL_0026:
@@ -17773,10 +17535,11 @@ IL_009a:
 		NullCheck(L_31);
 		float L_32;
 		L_32 = InterfaceFuncInvoker0< float >::Invoke(77, IResolvedStyle_t6A3530BA6147B091C278593F21F86B09CD42BE89_il2cpp_TypeInfo_var, L_31);
-		float L_33 = __this->___m_LabelExtraContextWidth;
-		float L_34 = __this->___m_LabelWidthRatio;
+		float L_33 = __this->___m_LabelWidthRatio;
+		float L_34;
+		L_34 = ceilf(((float)il2cpp_codegen_multiply(L_32, L_33)));
 		float L_35 = V_0;
-		V_4 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_32, L_33)), L_34)), L_35));
+		V_4 = ((float)il2cpp_codegen_subtract(L_34, L_35));
 		Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* L_36;
 		L_36 = BaseField_1_get_labelElement_m4928B60AAB4F9A0E683041C9DA800342E35C4DB8_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)L_36);
@@ -17792,7 +17555,7 @@ IL_009a:
 		bool L_41 = V_7;
 		if (!L_41)
 		{
-			goto IL_0122;
+			goto IL_0120;
 		}
 	}
 	{
@@ -17810,7 +17573,7 @@ IL_009a:
 		InterfaceActionInvoker1< StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 >::Invoke(163, IStyle_t4FD66C97CA5F46BFE328FED0C65277A37E0A89F7_il2cpp_TypeInfo_var, L_43, L_46);
 	}
 
-IL_0122:
+IL_0120:
 	{
 		return;
 	}
@@ -18101,7 +17864,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_m87E2362011B49E8CD2A8
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1E4195C98D0F7A444FE7C7FE77BDCA5269926005);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral29F54E172E1EF5C4CB5C016D28D211A6D663C41A);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3CFBA36D3B441C5648A2965BB079FCEDCC23A5FA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4DE568C91EA99022F140EDED215DEE02E9BA48AA);
@@ -18270,11 +18032,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_m87E2362011B49E8CD2A8
 		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_20), _stringLiteral7F3AE879E2E7A8D115FD02ECC6AA71646A023F99, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		((BaseField_1_t1D211F1196D45DED55807E268A8B0E0D9F5D5088_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty = L_20;
 		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_t1D211F1196D45DED55807E268A8B0E0D9F5D5088_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_21;
-		memset((&L_21), 0, sizeof(L_21));
-		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_21), _stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
-		((BaseField_1_t1D211F1196D45DED55807E268A8B0E0D9F5D5088_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty = L_21;
-		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_t1D211F1196D45DED55807E268A8B0E0D9F5D5088_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
 		return;
 	}
 }
@@ -19037,7 +18794,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnAttachToPanel_m4C183F3CE1C
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_001b:
@@ -19057,7 +18814,7 @@ IL_001b:
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_0033:
@@ -19147,7 +18904,7 @@ IL_0090:
 		String_t* L_22 = ((BaseField_1_t5B07C4F16426F3DB4A05D137F6E0A910FAC6B21B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___inspectorFieldUssClassName;
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this);
 		VisualElement_RemoveFromClassList_mA7A2EC202004DFCBF38C12B70C6218BF40D21220((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this, L_22, NULL);
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_00ae:
@@ -19155,7 +18912,6 @@ IL_00ae:
 		__this->___m_LabelWidthRatio = (0.449999988f);
 		__this->___m_LabelExtraPadding = (37.0f);
 		__this->___m_LabelBaseMinWidth = (123.0f);
-		__this->___m_LabelExtraContextWidth = (1.0f);
 		EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F* L_23 = (EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F*)il2cpp_codegen_object_new(EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F_il2cpp_TypeInfo_var);
 		EventCallback_1__ctor_mA03324C646FE93909402ABA6C660D14D22ACE4F8(L_23, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 27)), NULL);
 		NullCheck((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this);
@@ -19170,7 +18926,7 @@ IL_00ae:
 		CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this, L_25, (int32_t)0, CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F_RuntimeMethod_var);
 	}
 
-IL_010e:
+IL_0103:
 	{
 		return;
 	}
@@ -19321,11 +19077,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_m7DC3A
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
-	float V_3 = 0.0f;
+	bool V_3 = false;
 	bool V_4 = false;
 	bool V_5 = false;
-	bool V_6 = false;
-	bool V_7 = false;
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_0 = ___0_evt;
 		NullCheck(L_0);
@@ -19336,11 +19090,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_m7DC3A
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_1, L_2, (&V_0));
-		V_4 = L_3;
-		bool L_4 = V_4;
+		V_3 = L_3;
+		bool L_4 = V_3;
 		if (!L_4)
 		{
-			goto IL_0022;
+			goto IL_0020;
 		}
 	}
 	{
@@ -19348,7 +19102,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_m7DC3A
 		__this->___m_LabelWidthRatio = L_5;
 	}
 
-IL_0022:
+IL_0020:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_6 = ___0_evt;
 		NullCheck(L_6);
@@ -19359,11 +19113,11 @@ IL_0022:
 		NullCheck(L_7);
 		bool L_9;
 		L_9 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_7, L_8, (&V_1));
-		V_5 = L_9;
-		bool L_10 = V_5;
+		V_4 = L_9;
+		bool L_10 = V_4;
 		if (!L_10)
 		{
-			goto IL_0043;
+			goto IL_0041;
 		}
 	}
 	{
@@ -19371,7 +19125,7 @@ IL_0022:
 		__this->___m_LabelExtraPadding = L_11;
 	}
 
-IL_0043:
+IL_0041:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_12 = ___0_evt;
 		NullCheck(L_12);
@@ -19382,11 +19136,11 @@ IL_0043:
 		NullCheck(L_13);
 		bool L_15;
 		L_15 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_13, L_14, (&V_2));
-		V_6 = L_15;
-		bool L_16 = V_6;
+		V_5 = L_15;
+		bool L_16 = V_5;
 		if (!L_16)
 		{
-			goto IL_0064;
+			goto IL_0062;
 		}
 	}
 	{
@@ -19394,30 +19148,7 @@ IL_0043:
 		__this->___m_LabelBaseMinWidth = L_17;
 	}
 
-IL_0064:
-	{
-		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_18 = ___0_evt;
-		NullCheck(L_18);
-		RuntimeObject* L_19;
-		L_19 = CustomStyleResolvedEvent_get_customStyle_m0F9CBEBB0EAF766F4A913974871BB5B4DCE1D3F4(L_18, NULL);
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 1));
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_20 = ((BaseField_1_t5B07C4F16426F3DB4A05D137F6E0A910FAC6B21B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty;
-		NullCheck(L_19);
-		bool L_21;
-		L_21 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_19, L_20, (&V_3));
-		V_7 = L_21;
-		bool L_22 = V_7;
-		if (!L_22)
-		{
-			goto IL_0085;
-		}
-	}
-	{
-		float L_23 = V_3;
-		__this->___m_LabelExtraContextWidth = L_23;
-	}
-
-IL_0085:
+IL_0062:
 	{
 		BaseField_1_AlignLabel_m6796ADC8C8ED389F9F690ACB55C9A511D502B3A6(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 32));
 		return;
@@ -19485,7 +19216,7 @@ IL_001a:
 		}
 	}
 	{
-		goto IL_0122;
+		goto IL_0120;
 	}
 
 IL_0026:
@@ -19569,10 +19300,11 @@ IL_009a:
 		NullCheck(L_31);
 		float L_32;
 		L_32 = InterfaceFuncInvoker0< float >::Invoke(77, IResolvedStyle_t6A3530BA6147B091C278593F21F86B09CD42BE89_il2cpp_TypeInfo_var, L_31);
-		float L_33 = __this->___m_LabelExtraContextWidth;
-		float L_34 = __this->___m_LabelWidthRatio;
+		float L_33 = __this->___m_LabelWidthRatio;
+		float L_34;
+		L_34 = ceilf(((float)il2cpp_codegen_multiply(L_32, L_33)));
 		float L_35 = V_0;
-		V_4 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_32, L_33)), L_34)), L_35));
+		V_4 = ((float)il2cpp_codegen_subtract(L_34, L_35));
 		Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* L_36;
 		L_36 = BaseField_1_get_labelElement_m18106DF604A4B8BB3BF756C55203248FE7B6825C_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)L_36);
@@ -19588,7 +19320,7 @@ IL_009a:
 		bool L_41 = V_7;
 		if (!L_41)
 		{
-			goto IL_0122;
+			goto IL_0120;
 		}
 	}
 	{
@@ -19606,7 +19338,7 @@ IL_009a:
 		InterfaceActionInvoker1< StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 >::Invoke(163, IStyle_t4FD66C97CA5F46BFE328FED0C65277A37E0A89F7_il2cpp_TypeInfo_var, L_43, L_46);
 	}
 
-IL_0122:
+IL_0120:
 	{
 		return;
 	}
@@ -19899,7 +19631,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_m86C62BB886A49E1074EE
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1E4195C98D0F7A444FE7C7FE77BDCA5269926005);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral29F54E172E1EF5C4CB5C016D28D211A6D663C41A);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3CFBA36D3B441C5648A2965BB079FCEDCC23A5FA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4DE568C91EA99022F140EDED215DEE02E9BA48AA);
@@ -20068,11 +19799,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_m86C62BB886A49E1074EE
 		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_20), _stringLiteral7F3AE879E2E7A8D115FD02ECC6AA71646A023F99, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		((BaseField_1_t5B07C4F16426F3DB4A05D137F6E0A910FAC6B21B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty = L_20;
 		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_t5B07C4F16426F3DB4A05D137F6E0A910FAC6B21B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_21;
-		memset((&L_21), 0, sizeof(L_21));
-		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_21), _stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
-		((BaseField_1_t5B07C4F16426F3DB4A05D137F6E0A910FAC6B21B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty = L_21;
-		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_t5B07C4F16426F3DB4A05D137F6E0A910FAC6B21B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
 		return;
 	}
 }
@@ -20837,7 +20563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnAttachToPanel_m1ACB013350D
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_001b:
@@ -20857,7 +20583,7 @@ IL_001b:
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_0033:
@@ -20947,7 +20673,7 @@ IL_0090:
 		String_t* L_22 = ((BaseField_1_t20F941B6C24CA56850F3E1E4DAE464ED52B22A9B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___inspectorFieldUssClassName;
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this);
 		VisualElement_RemoveFromClassList_mA7A2EC202004DFCBF38C12B70C6218BF40D21220((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this, L_22, NULL);
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_00ae:
@@ -20955,7 +20681,6 @@ IL_00ae:
 		__this->___m_LabelWidthRatio = (0.449999988f);
 		__this->___m_LabelExtraPadding = (37.0f);
 		__this->___m_LabelBaseMinWidth = (123.0f);
-		__this->___m_LabelExtraContextWidth = (1.0f);
 		EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F* L_23 = (EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F*)il2cpp_codegen_object_new(EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F_il2cpp_TypeInfo_var);
 		EventCallback_1__ctor_mA03324C646FE93909402ABA6C660D14D22ACE4F8(L_23, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 27)), NULL);
 		NullCheck((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this);
@@ -20970,7 +20695,7 @@ IL_00ae:
 		CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this, L_25, (int32_t)0, CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F_RuntimeMethod_var);
 	}
 
-IL_010e:
+IL_0103:
 	{
 		return;
 	}
@@ -21121,11 +20846,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_m1BFCE
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
-	float V_3 = 0.0f;
+	bool V_3 = false;
 	bool V_4 = false;
 	bool V_5 = false;
-	bool V_6 = false;
-	bool V_7 = false;
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_0 = ___0_evt;
 		NullCheck(L_0);
@@ -21136,11 +20859,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_m1BFCE
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_1, L_2, (&V_0));
-		V_4 = L_3;
-		bool L_4 = V_4;
+		V_3 = L_3;
+		bool L_4 = V_3;
 		if (!L_4)
 		{
-			goto IL_0022;
+			goto IL_0020;
 		}
 	}
 	{
@@ -21148,7 +20871,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_m1BFCE
 		__this->___m_LabelWidthRatio = L_5;
 	}
 
-IL_0022:
+IL_0020:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_6 = ___0_evt;
 		NullCheck(L_6);
@@ -21159,11 +20882,11 @@ IL_0022:
 		NullCheck(L_7);
 		bool L_9;
 		L_9 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_7, L_8, (&V_1));
-		V_5 = L_9;
-		bool L_10 = V_5;
+		V_4 = L_9;
+		bool L_10 = V_4;
 		if (!L_10)
 		{
-			goto IL_0043;
+			goto IL_0041;
 		}
 	}
 	{
@@ -21171,7 +20894,7 @@ IL_0022:
 		__this->___m_LabelExtraPadding = L_11;
 	}
 
-IL_0043:
+IL_0041:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_12 = ___0_evt;
 		NullCheck(L_12);
@@ -21182,11 +20905,11 @@ IL_0043:
 		NullCheck(L_13);
 		bool L_15;
 		L_15 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_13, L_14, (&V_2));
-		V_6 = L_15;
-		bool L_16 = V_6;
+		V_5 = L_15;
+		bool L_16 = V_5;
 		if (!L_16)
 		{
-			goto IL_0064;
+			goto IL_0062;
 		}
 	}
 	{
@@ -21194,30 +20917,7 @@ IL_0043:
 		__this->___m_LabelBaseMinWidth = L_17;
 	}
 
-IL_0064:
-	{
-		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_18 = ___0_evt;
-		NullCheck(L_18);
-		RuntimeObject* L_19;
-		L_19 = CustomStyleResolvedEvent_get_customStyle_m0F9CBEBB0EAF766F4A913974871BB5B4DCE1D3F4(L_18, NULL);
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 1));
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_20 = ((BaseField_1_t20F941B6C24CA56850F3E1E4DAE464ED52B22A9B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty;
-		NullCheck(L_19);
-		bool L_21;
-		L_21 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_19, L_20, (&V_3));
-		V_7 = L_21;
-		bool L_22 = V_7;
-		if (!L_22)
-		{
-			goto IL_0085;
-		}
-	}
-	{
-		float L_23 = V_3;
-		__this->___m_LabelExtraContextWidth = L_23;
-	}
-
-IL_0085:
+IL_0062:
 	{
 		BaseField_1_AlignLabel_m1D82F067ABBB0A82C600BC354495C300603CEF31(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 32));
 		return;
@@ -21285,7 +20985,7 @@ IL_001a:
 		}
 	}
 	{
-		goto IL_0122;
+		goto IL_0120;
 	}
 
 IL_0026:
@@ -21369,10 +21069,11 @@ IL_009a:
 		NullCheck(L_31);
 		float L_32;
 		L_32 = InterfaceFuncInvoker0< float >::Invoke(77, IResolvedStyle_t6A3530BA6147B091C278593F21F86B09CD42BE89_il2cpp_TypeInfo_var, L_31);
-		float L_33 = __this->___m_LabelExtraContextWidth;
-		float L_34 = __this->___m_LabelWidthRatio;
+		float L_33 = __this->___m_LabelWidthRatio;
+		float L_34;
+		L_34 = ceilf(((float)il2cpp_codegen_multiply(L_32, L_33)));
 		float L_35 = V_0;
-		V_4 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_32, L_33)), L_34)), L_35));
+		V_4 = ((float)il2cpp_codegen_subtract(L_34, L_35));
 		Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* L_36;
 		L_36 = BaseField_1_get_labelElement_m4106030090CFD0B7498DA819DDBB1867B35C0F89_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)L_36);
@@ -21388,7 +21089,7 @@ IL_009a:
 		bool L_41 = V_7;
 		if (!L_41)
 		{
-			goto IL_0122;
+			goto IL_0120;
 		}
 	}
 	{
@@ -21406,7 +21107,7 @@ IL_009a:
 		InterfaceActionInvoker1< StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 >::Invoke(163, IStyle_t4FD66C97CA5F46BFE328FED0C65277A37E0A89F7_il2cpp_TypeInfo_var, L_43, L_46);
 	}
 
-IL_0122:
+IL_0120:
 	{
 		return;
 	}
@@ -21699,7 +21400,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_m1DD967BFE7037DCF92C5
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1E4195C98D0F7A444FE7C7FE77BDCA5269926005);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral29F54E172E1EF5C4CB5C016D28D211A6D663C41A);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3CFBA36D3B441C5648A2965BB079FCEDCC23A5FA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4DE568C91EA99022F140EDED215DEE02E9BA48AA);
@@ -21868,11 +21568,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_m1DD967BFE7037DCF92C5
 		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_20), _stringLiteral7F3AE879E2E7A8D115FD02ECC6AA71646A023F99, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		((BaseField_1_t20F941B6C24CA56850F3E1E4DAE464ED52B22A9B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty = L_20;
 		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_t20F941B6C24CA56850F3E1E4DAE464ED52B22A9B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_21;
-		memset((&L_21), 0, sizeof(L_21));
-		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_21), _stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
-		((BaseField_1_t20F941B6C24CA56850F3E1E4DAE464ED52B22A9B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty = L_21;
-		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_t20F941B6C24CA56850F3E1E4DAE464ED52B22A9B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
 		return;
 	}
 }
@@ -22637,7 +22332,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnAttachToPanel_mDD14C848830
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_001b:
@@ -22657,7 +22352,7 @@ IL_001b:
 		}
 	}
 	{
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_0033:
@@ -22747,7 +22442,7 @@ IL_0090:
 		String_t* L_22 = ((BaseField_1_t9D3CB6D9190E9D20C857B1EE2F77C70A5B787F56_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___inspectorFieldUssClassName;
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this);
 		VisualElement_RemoveFromClassList_mA7A2EC202004DFCBF38C12B70C6218BF40D21220((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this, L_22, NULL);
-		goto IL_010e;
+		goto IL_0103;
 	}
 
 IL_00ae:
@@ -22755,7 +22450,6 @@ IL_00ae:
 		__this->___m_LabelWidthRatio = (0.449999988f);
 		__this->___m_LabelExtraPadding = (37.0f);
 		__this->___m_LabelBaseMinWidth = (123.0f);
-		__this->___m_LabelExtraContextWidth = (1.0f);
 		EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F* L_23 = (EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F*)il2cpp_codegen_object_new(EventCallback_1_tDE93D01AB4244ED03015ADF985CF61A9E3CA060F_il2cpp_TypeInfo_var);
 		EventCallback_1__ctor_mA03324C646FE93909402ABA6C660D14D22ACE4F8(L_23, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 27)), NULL);
 		NullCheck((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this);
@@ -22770,7 +22464,7 @@ IL_00ae:
 		CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F((CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*)__this, L_25, (int32_t)0, CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A_m34764823E27F27068C7C0E4F34879B1C395A117F_RuntimeMethod_var);
 	}
 
-IL_010e:
+IL_0103:
 	{
 		return;
 	}
@@ -22921,11 +22615,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_m27AED
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
-	float V_3 = 0.0f;
+	bool V_3 = false;
 	bool V_4 = false;
 	bool V_5 = false;
-	bool V_6 = false;
-	bool V_7 = false;
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_0 = ___0_evt;
 		NullCheck(L_0);
@@ -22936,11 +22628,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_m27AED
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_1, L_2, (&V_0));
-		V_4 = L_3;
-		bool L_4 = V_4;
+		V_3 = L_3;
+		bool L_4 = V_3;
 		if (!L_4)
 		{
-			goto IL_0022;
+			goto IL_0020;
 		}
 	}
 	{
@@ -22948,7 +22640,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1_OnCustomStyleResolved_m27AED
 		__this->___m_LabelWidthRatio = L_5;
 	}
 
-IL_0022:
+IL_0020:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_6 = ___0_evt;
 		NullCheck(L_6);
@@ -22959,11 +22651,11 @@ IL_0022:
 		NullCheck(L_7);
 		bool L_9;
 		L_9 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_7, L_8, (&V_1));
-		V_5 = L_9;
-		bool L_10 = V_5;
+		V_4 = L_9;
+		bool L_10 = V_4;
 		if (!L_10)
 		{
-			goto IL_0043;
+			goto IL_0041;
 		}
 	}
 	{
@@ -22971,7 +22663,7 @@ IL_0022:
 		__this->___m_LabelExtraPadding = L_11;
 	}
 
-IL_0043:
+IL_0041:
 	{
 		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_12 = ___0_evt;
 		NullCheck(L_12);
@@ -22982,11 +22674,11 @@ IL_0043:
 		NullCheck(L_13);
 		bool L_15;
 		L_15 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_13, L_14, (&V_2));
-		V_6 = L_15;
-		bool L_16 = V_6;
+		V_5 = L_15;
+		bool L_16 = V_5;
 		if (!L_16)
 		{
-			goto IL_0064;
+			goto IL_0062;
 		}
 	}
 	{
@@ -22994,30 +22686,7 @@ IL_0043:
 		__this->___m_LabelBaseMinWidth = L_17;
 	}
 
-IL_0064:
-	{
-		CustomStyleResolvedEvent_t54D095D62773F628A6A05A4531DEE990166062E6* L_18 = ___0_evt;
-		NullCheck(L_18);
-		RuntimeObject* L_19;
-		L_19 = CustomStyleResolvedEvent_get_customStyle_m0F9CBEBB0EAF766F4A913974871BB5B4DCE1D3F4(L_18, NULL);
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 1));
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_20 = ((BaseField_1_t9D3CB6D9190E9D20C857B1EE2F77C70A5B787F56_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty;
-		NullCheck(L_19);
-		bool L_21;
-		L_21 = InterfaceFuncInvoker2< bool, CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493, float* >::Invoke(0, ICustomStyle_t4385916BE4168875B5CC8B442752D4A1A6A69026_il2cpp_TypeInfo_var, L_19, L_20, (&V_3));
-		V_7 = L_21;
-		bool L_22 = V_7;
-		if (!L_22)
-		{
-			goto IL_0085;
-		}
-	}
-	{
-		float L_23 = V_3;
-		__this->___m_LabelExtraContextWidth = L_23;
-	}
-
-IL_0085:
+IL_0062:
 	{
 		BaseField_1_AlignLabel_m01D5A4A956F49A8CD97866BB1B5CD2343B36EDAE(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 32));
 		return;
@@ -23085,7 +22754,7 @@ IL_001a:
 		}
 	}
 	{
-		goto IL_0122;
+		goto IL_0120;
 	}
 
 IL_0026:
@@ -23169,10 +22838,11 @@ IL_009a:
 		NullCheck(L_31);
 		float L_32;
 		L_32 = InterfaceFuncInvoker0< float >::Invoke(77, IResolvedStyle_t6A3530BA6147B091C278593F21F86B09CD42BE89_il2cpp_TypeInfo_var, L_31);
-		float L_33 = __this->___m_LabelExtraContextWidth;
-		float L_34 = __this->___m_LabelWidthRatio;
+		float L_33 = __this->___m_LabelWidthRatio;
+		float L_34;
+		L_34 = ceilf(((float)il2cpp_codegen_multiply(L_32, L_33)));
 		float L_35 = V_0;
-		V_4 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_32, L_33)), L_34)), L_35));
+		V_4 = ((float)il2cpp_codegen_subtract(L_34, L_35));
 		Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* L_36;
 		L_36 = BaseField_1_get_labelElement_mA6F3420A32E7A02910B8482AE09F0BE0647D97A8_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)L_36);
@@ -23188,7 +22858,7 @@ IL_009a:
 		bool L_41 = V_7;
 		if (!L_41)
 		{
-			goto IL_0122;
+			goto IL_0120;
 		}
 	}
 	{
@@ -23206,7 +22876,7 @@ IL_009a:
 		InterfaceActionInvoker1< StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 >::Invoke(163, IStyle_t4FD66C97CA5F46BFE328FED0C65277A37E0A89F7_il2cpp_TypeInfo_var, L_43, L_46);
 	}
 
-IL_0122:
+IL_0120:
 	{
 		return;
 	}
@@ -23499,7 +23169,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_m3B575EA4F54D4538748A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1E4195C98D0F7A444FE7C7FE77BDCA5269926005);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral29F54E172E1EF5C4CB5C016D28D211A6D663C41A);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3CFBA36D3B441C5648A2965BB079FCEDCC23A5FA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4DE568C91EA99022F140EDED215DEE02E9BA48AA);
@@ -23668,11 +23337,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseField_1__cctor_m3B575EA4F54D4538748A
 		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_20), _stringLiteral7F3AE879E2E7A8D115FD02ECC6AA71646A023F99, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
 		((BaseField_1_t9D3CB6D9190E9D20C857B1EE2F77C70A5B787F56_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty = L_20;
 		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_t9D3CB6D9190E9D20C857B1EE2F77C70A5B787F56_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelBaseMinWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
-		CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 L_21;
-		memset((&L_21), 0, sizeof(L_21));
-		CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4((&L_21), _stringLiteral310EC2BC63FE7FD3941242CFC62EB63F720EB9AB, CustomStyleProperty_1__ctor_mA325D95E8AD8AC0AF58A16CBD6763CA32BC435E4_RuntimeMethod_var);
-		((BaseField_1_t9D3CB6D9190E9D20C857B1EE2F77C70A5B787F56_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty = L_21;
-		Il2CppCodeGenWriteBarrier((void**)&(((&((BaseField_1_t9D3CB6D9190E9D20C857B1EE2F77C70A5B787F56_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_LabelExtraContextWidthProperty))->___U3CnameU3Ek__BackingField), (void*)NULL);
 		return;
 	}
 }
@@ -23713,7 +23377,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 29643
+// Method Definition Index: 29647
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_x_mB267B718E0D067F2BAE31BA477647FBF964916EB_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -23729,7 +23393,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 30428
+// Method Definition Index: 30432
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;

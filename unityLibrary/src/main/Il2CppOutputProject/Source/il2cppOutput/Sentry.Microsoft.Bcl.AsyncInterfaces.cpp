@@ -127,7 +127,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ConfiguredValueTaskAwaitable
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 43533
+// Method Definition Index: 43537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m0C2F88B4EE02FF99416598D5419E9874BEC2E7C8 (EmbeddedAttribute_t39A1FF07D6448598A64F4678781BACBC4226CFE5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -143,7 +143,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m0C2F88B4EE02FF9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 43534
+// Method Definition Index: 43538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsReadOnlyAttribute__ctor_mD549A5C6FBFC0756FA3EE2E5903FFC1B6E199E8A (IsReadOnlyAttribute_tB01E0B2246CFED809E899D064E4F8ED4D7E67DE2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -159,7 +159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsReadOnlyAttribute__ctor_mD549A5C6FBFC0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 43539
+// Method Definition Index: 43543
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfiguredAsyncDisposable__ctor_m90AB61783CDA6B1DFB9C633DA9FE1BA37864888C (ConfiguredAsyncDisposable_t9753B2E7D73D9187072BE527310966CE854DFFB7* __this, RuntimeObject* ___0_source, bool ___1_continueOnCapturedContext, const RuntimeMethod* method) 
 {
 	{
@@ -178,7 +178,7 @@ IL2CPP_EXTERN_C  void ConfiguredAsyncDisposable__ctor_m90AB61783CDA6B1DFB9C633DA
 	_thisAdjusted = reinterpret_cast<ConfiguredAsyncDisposable_t9753B2E7D73D9187072BE527310966CE854DFFB7*>(__this + _offset);
 	ConfiguredAsyncDisposable__ctor_m90AB61783CDA6B1DFB9C633DA9FE1BA37864888C(_thisAdjusted, ___0_source, ___1_continueOnCapturedContext, method);
 }
-// Method Definition Index: 43540
+// Method Definition Index: 43544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConfiguredValueTaskAwaitable_t1E31A943ACAA06541EF6C26E511DDA7B82718C6B ConfiguredAsyncDisposable_DisposeAsync_m84159E052EAEEB6F7E5888EEAED1E0F2E22DD7EE (ConfiguredAsyncDisposable_t9753B2E7D73D9187072BE527310966CE854DFFB7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -220,7 +220,7 @@ IL2CPP_EXTERN_C  ConfiguredValueTaskAwaitable_t1E31A943ACAA06541EF6C26E511DDA7B8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 43541
+// Method Definition Index: 43545
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConfiguredAsyncDisposable_t9753B2E7D73D9187072BE527310966CE854DFFB7 TaskAsyncEnumerableExtensions_ConfigureAwait_mF2F844FB0283F8E330181D6B8DFBBFC1B849894F (RuntimeObject* ___0_source, bool ___1_continueOnCapturedContext, const RuntimeMethod* method) 
 {
 	{
@@ -235,7 +235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConfiguredAsyncDisposable_t9753B2E7D73D918707
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 43384
+// Method Definition Index: 43388
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConfiguredValueTaskAwaitable_t1E31A943ACAA06541EF6C26E511DDA7B82718C6B ValueTask_ConfigureAwait_mA7CCE63FA297B260AE0DBF86B0BFE8C9FEAD9B8E_inline (ValueTask_t83FB74E173DD0A3F821116EDDD3AE3F13DFC0C3E* __this, bool ___0_continueOnCapturedContext, const RuntimeMethod* method) 
 {
 	{
@@ -251,7 +251,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConfiguredValueTaskAwaitable_t1E3
 		return L_4;
 	}
 }
-// Method Definition Index: 43375
+// Method Definition Index: 43379
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValueTask__ctor_m2E0A0DCF00192F17AC850446C5AB0E703ECA6145_inline (ValueTask_t83FB74E173DD0A3F821116EDDD3AE3F13DFC0C3E* __this, RuntimeObject* ___0_obj, int16_t ___1_token, bool ___2_continueOnCapturedContext, const RuntimeMethod* method) 
 {
 	{
@@ -265,7 +265,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValueTask__ctor_m2E0A0DCF001
 		return;
 	}
 }
-// Method Definition Index: 43421
+// Method Definition Index: 43425
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ConfiguredValueTaskAwaitable__ctor_m37E8BFCADC5AECBEAF490A6F664B1E2FCA598E45_inline (ConfiguredValueTaskAwaitable_t1E31A943ACAA06541EF6C26E511DDA7B82718C6B* __this, ValueTask_t83FB74E173DD0A3F821116EDDD3AE3F13DFC0C3E ___0_value, const RuntimeMethod* method) 
 {
 	{

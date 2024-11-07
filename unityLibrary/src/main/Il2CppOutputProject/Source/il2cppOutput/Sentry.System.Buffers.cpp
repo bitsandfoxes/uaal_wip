@@ -322,7 +322,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayPoolEventSource__ctor_mD1382159BC19
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 43495
+// Method Definition Index: 43499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ResourceManager_t311D6D32A753224008949B32CC6A5468C47498EB* SR_get_ResourceManager_m3D9C44AF363FD5EA7C8C44BF3A21C08F2F851FC5 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -362,7 +362,7 @@ IL_0019:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 43496
+// Method Definition Index: 43500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_GetResourceString_m7BFF168E0F78388C7E8F2D5120952500EAD23F57 (String_t* ___0_resourceKey, String_t* ___1_defaultString, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -435,7 +435,7 @@ IL_0022:
 		return L_9;
 	}
 }
-// Method Definition Index: 43497
+// Method Definition Index: 43501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* SR_get_ResourceType_m4C5F6E2DD3DFD32C41187A91F0A270A717818AE3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -450,7 +450,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* SR_get_ResourceType_m4C5F6E2DD3DFD32C
 		return L_0;
 	}
 }
-// Method Definition Index: 43498
+// Method Definition Index: 43502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_get_ArgumentException_BufferNotFromPool_m77D1A55906C82CF3F6A53D4BFF507D66B725E968 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -467,7 +467,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_get_ArgumentException_BufferNotF
 		return L_0;
 	}
 }
-// Method Definition Index: 43499
+// Method Definition Index: 43503
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SR__cctor_m5AE1C392E7174645CAFA1C60FE332A0DD1F19CEF (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -495,7 +495,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SR__cctor_m5AE1C392E7174645CAFA1C60FE332
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 43506
+// Method Definition Index: 43510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayPoolEventSource_BufferRented_mA6479CAB7876D6CABD2A3F76B918E5B20939FF3D (ArrayPoolEventSource_t17814D9BDDFEC655E47E137DFA1930346D96A34D* __this, int32_t ___0_bufferId, int32_t ___1_bufferSize, int32_t ___2_poolId, int32_t ___3_bucketId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -555,7 +555,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayPoolEventSource_BufferRented_mA6479
 		return;
 	}
 }
-// Method Definition Index: 43507
+// Method Definition Index: 43511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayPoolEventSource_BufferAllocated_m1E4F024DEDCADF3AD526204055D7B8F9D9F7BF65 (ArrayPoolEventSource_t17814D9BDDFEC655E47E137DFA1930346D96A34D* __this, int32_t ___0_bufferId, int32_t ___1_bufferSize, int32_t ___2_poolId, int32_t ___3_bucketId, int32_t ___4_reason, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -624,7 +624,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayPoolEventSource_BufferAllocated_m1E
 		return;
 	}
 }
-// Method Definition Index: 43508
+// Method Definition Index: 43512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayPoolEventSource_BufferReturned_m1765D087F13D1A1DA1E92F671242C70AA217BA2F (ArrayPoolEventSource_t17814D9BDDFEC655E47E137DFA1930346D96A34D* __this, int32_t ___0_bufferId, int32_t ___1_bufferSize, int32_t ___2_poolId, const RuntimeMethod* method) 
 {
 	{
@@ -635,7 +635,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayPoolEventSource_BufferReturned_m176
 		return;
 	}
 }
-// Method Definition Index: 43509
+// Method Definition Index: 43513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayPoolEventSource__ctor_mD1382159BC195F5248CA980667E7897663B7E397 (ArrayPoolEventSource_t17814D9BDDFEC655E47E137DFA1930346D96A34D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -643,7 +643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayPoolEventSource__ctor_mD1382159BC19
 		return;
 	}
 }
-// Method Definition Index: 43510
+// Method Definition Index: 43514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayPoolEventSource__cctor_m1A91B668E1F3ED21AA748F081904F558B326B4BC (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -676,7 +676,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayPoolEventSource__cctor_m1A91B668E1F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 43520
+// Method Definition Index: 43524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Utilities_SelectBucketIndex_m7E66C3B01628FB633BE851CEB240292C50FA410A (int32_t ___0_bufferSize, const RuntimeMethod* method) 
 {
 	uint32_t V_0 = 0;
@@ -764,7 +764,7 @@ IL_004d:
 		return ((int32_t)il2cpp_codegen_add(L_15, (int32_t)L_16));
 	}
 }
-// Method Definition Index: 43521
+// Method Definition Index: 43525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Utilities_GetMaxSizeForBucket_m39FA1A4F4823A68B2B2D1C37F6ABCA3F756918EC (int32_t ___0_binIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -778,7 +778,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Utilities_GetMaxSizeForBucket_m39FA1A
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 43497
+// Method Definition Index: 43501
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Type_t* SR_get_ResourceType_m4C5F6E2DD3DFD32C41187A91F0A270A717818AE3_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
