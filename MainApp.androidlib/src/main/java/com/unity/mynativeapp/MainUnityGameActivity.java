@@ -18,7 +18,8 @@ public class MainUnityGameActivity extends UnityPlayerGameActivity {
 
     protected String updateUnityCommandLineArguments(String cmdLine)
     {
-        return appendCommandLineArgument(cmdLine, "-androidChainedSignalHandlerBehavior=disabled");
+//        return appendCommandLineArgument(cmdLine, "-androidChainedSignalHandlerBehavior=disabled");
+        return cmdLine;
     }
 
     @Override

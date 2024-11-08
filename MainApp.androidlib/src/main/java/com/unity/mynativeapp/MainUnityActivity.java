@@ -19,7 +19,8 @@ public class MainUnityActivity extends UnityPlayerActivity {
 
     protected String updateUnityCommandLineArguments(String cmdLine)
     {
-        return appendCommandLineArgument(cmdLine, "-androidChainedSignalHandlerBehavior=disabled");
+//        return appendCommandLineArgument(cmdLine, "-androidChainedSignalHandlerBehavior=disabled");
+        return cmdLine;
     }
 
     @Override
@@ -27,7 +28,6 @@ public class MainUnityActivity extends UnityPlayerActivity {
         super.onCreate(savedInstanceState);
 
         String cmdLine = updateUnityCommandLineArguments(getIntent().getStringExtra("unity"));
-        Log.d("HUEHUEHUE", "cmdLine: " + cmdLine);
         getIntent().putExtra("unity", cmdLine);
 
         // Setup activity layout
