@@ -38,7 +38,7 @@
     
     <!-- Required: set your sentry.io project identifier (DSN) -->
     <meta-data android:name="io.sentry.dsn" android:value="https://e9ee299dbf554dfd930bc5f3c90d5d4b@o447951.ingest.us.sentry.io/4504604988538880" />
-
+    <meta-data android:name="io.sentry.debug" android:value="true" />
     <!-- enable automatic breadcrumbs for user interactions (clicks, swipes, scrolls) -->
     <meta-data android:name="io.sentry.traces.user-interaction.enable" android:value="true" />
     <!-- enable screenshot for crashes (could contain sensitive/PII data) -->
@@ -58,6 +58,6 @@
         android:process=":Unity"
         tools:node="merge"
     />
-</application>
+    </application>
 
 </manifest>

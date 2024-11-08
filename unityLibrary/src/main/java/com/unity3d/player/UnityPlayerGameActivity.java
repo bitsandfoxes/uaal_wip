@@ -20,9 +20,18 @@ import com.google.androidgamesdk.GameActivity;
 public class UnityPlayerGameActivity extends GameActivity implements IUnityPlayerLifecycleEvents, IUnityPermissionRequestSupport, IUnityPlayerSupport
 {
     protected UnityPlayerForGameActivity mUnityPlayer;
+    private String appendCommandLineArgument(String cmdLine, String arg) {
+        if (arg == null || arg.isEmpty())
+            return cmdLine;
+        else if (cmdLine == null || cmdLine.isEmpty())
+            return arg;
+        else
+            return cmdLine + " " + arg;
+    }
+
     protected String updateUnityCommandLineArguments(String cmdLine)
     {
-        return cmdLine;
+        return appendCommandLineArgument(cmdLine, "-androidChainedSignalHandlerBehavior=disabled");
     }
 
     static
@@ -33,6 +42,10 @@ public class UnityPlayerGameActivity extends GameActivity implements IUnityPlaye
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
+
+        String cmdLine = updateUnityCommandLineArguments(getIntent().getStringExtra("unity"));
+        getIntent().putExtra("unity", cmdLine);
+
         // On devices with API Level >= 30 system bars are no longer accounted for and because of that window/views don't resize (see https://jira.unity3d.com/browse/UUM-18618)
         // This is most likely due to deprecation of setSystemUiVisibility and changes to insets used in SystemUI.cpp
         // This fix forces views to shrink to account for system bars

@@ -441,7 +441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RaycastHit_get_distance_m035194B0E9BB62
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 43359
+// Method Definition Index: 29483
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collision__ctor_mC3F14BC1026130B6B0E6BB83D7431753C3484912 (Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -474,7 +474,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collision__ctor_mC3F14BC1026130B6B0E6BB8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 43360
+// Method Definition Index: 29484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Physics_PhysXOnSceneContactModify_m249A4E5A6A2967EA3CE7FD32ADD5851890D77AEE (PhysicsScene_t55222DD37072E8560EE054A07C0E3FE391D9D9DE ___0_scene, intptr_t ___1_buffer, int32_t ___2_count, bool ___3_isCCD, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -563,7 +563,7 @@ IL_0040:
 		return;
 	}
 }
-// Method Definition Index: 43361
+// Method Definition Index: 29485
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Physics__cctor_m1E2D4816C77050D34F6D01F43E63D7969410AE2A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -643,7 +643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Physics__cctor_m1E2D4816C77050D34F6D01F4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 43362
+// Method Definition Index: 29486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PhysicsScene_ToString_mA4E28A3068A823D16D96BBA45115A2C457FC57C7 (PhysicsScene_t55222DD37072E8560EE054A07C0E3FE391D9D9DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -684,7 +684,7 @@ IL2CPP_EXTERN_C  String_t* PhysicsScene_ToString_mA4E28A3068A823D16D96BBA45115A2
 	_returnValue = PhysicsScene_ToString_mA4E28A3068A823D16D96BBA45115A2C457FC57C7(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 43363
+// Method Definition Index: 29487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhysicsScene_GetHashCode_m368888FB861F994FADEEDD281BD02B090C561814 (PhysicsScene_t55222DD37072E8560EE054A07C0E3FE391D9D9DE* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -709,7 +709,7 @@ IL2CPP_EXTERN_C  int32_t PhysicsScene_GetHashCode_m368888FB861F994FADEEDD281BD02
 	_returnValue = PhysicsScene_GetHashCode_m368888FB861F994FADEEDD281BD02B090C561814(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 43364
+// Method Definition Index: 29488
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhysicsScene_Equals_mE3A11329AB6C2F4F76D2321D8BAE52671A2EDDA3 (PhysicsScene_t55222DD37072E8560EE054A07C0E3FE391D9D9DE* __this, RuntimeObject* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -762,7 +762,7 @@ IL2CPP_EXTERN_C  bool PhysicsScene_Equals_mE3A11329AB6C2F4F76D2321D8BAE52671A2ED
 	_returnValue = PhysicsScene_Equals_mE3A11329AB6C2F4F76D2321D8BAE52671A2EDDA3(_thisAdjusted, ___0_other, method);
 	return _returnValue;
 }
-// Method Definition Index: 43365
+// Method Definition Index: 29489
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhysicsScene_Equals_m81E4A78FC3644FDC44044B3A5F19F1C4283648A1 (PhysicsScene_t55222DD37072E8560EE054A07C0E3FE391D9D9DE* __this, PhysicsScene_t55222DD37072E8560EE054A07C0E3FE391D9D9DE ___0_other, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -797,7 +797,7 @@ IL2CPP_EXTERN_C  bool PhysicsScene_Equals_m81E4A78FC3644FDC44044B3A5F19F1C428364
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 43366
+// Method Definition Index: 29490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -832,7 +832,7 @@ IL2CPP_EXTERN_C  Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* RaycastHit_
 	_returnValue = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 43367
+// Method Definition Index: 29491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39 (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -858,7 +858,7 @@ IL2CPP_EXTERN_C  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 RaycastHit_ge
 	_returnValue = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 43368
+// Method Definition Index: 29492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5 (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -884,7 +884,7 @@ IL2CPP_EXTERN_C  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 RaycastHit_ge
 	_returnValue = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 43369
+// Method Definition Index: 29493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RaycastHit_get_distance_m035194B0E9BB6229259CFC43B095A9C8E5011C78 (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -912,7 +912,7 @@ IL2CPP_EXTERN_C  float RaycastHit_get_distance_m035194B0E9BB6229259CFC43B095A9C8
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 3750
+// Method Definition Index: 3138
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* IntPtr_ToPointer_m1A0612EED3A1C8B8850BE2943CFC42523064B4F6_inline (intptr_t* __this, const RuntimeMethod* method) 
 {
 	{
@@ -920,7 +920,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* IntPtr_ToPointer_m1A0612EED
 		return (void*)(L_0);
 	}
 }
-// Method Definition Index: 882
+// Method Definition Index: 587
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m7EA811A13BB45D59926C636C90CFD2FCE6D89B3B_gshared_inline (Action_2_t70E17A6F8F03189031C560482454FE2D87F496F2* __this, PhysicsScene_t55222DD37072E8560EE054A07C0E3FE391D9D9DE ___0_arg1, NativeArray_1_tA04FF6E7BE3D24B3E6351C63BF7229421DFE1259 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, PhysicsScene_t55222DD37072E8560EE054A07C0E3FE391D9D9DE, NativeArray_1_tA04FF6E7BE3D24B3E6351C63BF7229421DFE1259, const RuntimeMethod*);

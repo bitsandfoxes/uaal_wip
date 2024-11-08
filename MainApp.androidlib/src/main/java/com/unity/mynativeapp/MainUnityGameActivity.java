@@ -7,9 +7,26 @@ import com.unity3d.player.UnityPlayerGameActivity;
 
 public class MainUnityGameActivity extends UnityPlayerGameActivity {
 
+    private String appendCommandLineArgument(String cmdLine, String arg) {
+        if (arg == null || arg.isEmpty())
+            return cmdLine;
+        else if (cmdLine == null || cmdLine.isEmpty())
+            return arg;
+        else
+            return cmdLine + " " + arg;
+    }
+
+    protected String updateUnityCommandLineArguments(String cmdLine)
+    {
+        return appendCommandLineArgument(cmdLine, "-androidChainedSignalHandlerBehavior=disabled");
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        String cmdLine = updateUnityCommandLineArguments(getIntent().getStringExtra("unity"));
+        getIntent().putExtra("unity", cmdLine);
 
         // Setup activity layout
         SharedClass.addControlsToUnityFrame(this);

@@ -28,7 +28,7 @@ android {
     }
 
     defaultConfig {
-        consumerProguardFiles "proguard-unity.txt", 'proguard-sentry-unity.pro'
+        consumerProguardFiles "proguard-unity.txt"
         versionName "0.1"
         minSdk 23
         targetSdk 35

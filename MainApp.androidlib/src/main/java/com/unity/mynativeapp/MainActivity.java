@@ -12,7 +12,6 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-import io.sentry.Sentry;
 
 public class MainActivity extends AppCompatActivity {
     private enum ActivityType {
@@ -30,15 +29,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-    // waiting for view to draw to better represent a captured error with a screenshot
-    findViewById(android.R.id.content).getViewTreeObserver().addOnGlobalLayoutListener(() -> {
-      try {
-        throw new Exception("This app uses Sentry! :)");
-      } catch (Exception e) {
-        Sentry.captureException(e);
-      }
-    });
-
 
         isUnityLoaded = false;
         setContentView(R.layout.activity_main);
