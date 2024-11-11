@@ -33,3 +33,6 @@ google-services.json
 *.hprof
 # Sentry Config File
 sentry.properties
+
+**/Il2CppOutputProject
+unityLibrary/src/main/cpp
