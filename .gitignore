@@ -36,3 +36,5 @@ sentry.properties
 
 **/Il2CppOutputProject
 unityLibrary/src/main/cpp
+
+**.DS_STORE
