@@ -6,9 +6,13 @@ dependencies {
     implementation project(':unityLibrary')
 }
 
+plugins {
+    id 'io.sentry.android.gradle' version '4.13.0'
+}
+
 android {
     namespace "com.DefaultCompany.UaaLExample"
-    ndkPath "/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK"
+    ndkPath "/Applications/Unity/Hub/Editor/6000.0.26f1/PlaybackEngines/AndroidPlayer/NDK"
     ndkVersion "23.1.7779620"
     compileSdk 35
     buildToolsVersion = "34.0.0"
@@ -91,4 +95,15 @@ android {
             enableSplit = true
         }
     }
+}
+
+sentry {
+    org = "sentry-sdks"
+    projectName = "z-uaal"
+
+    // this will upload your source code to Sentry to show it as part of the stack traces
+    // disable if you don't want to expose your sources
+    includeSourceContext = true
+    uploadNativeSymbols = true
+    autoUploadNativeSymbols = true
 }

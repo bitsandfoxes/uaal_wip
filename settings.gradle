@@ -22,3 +22,11 @@ dependencyResolutionManagement {
         }
     }
 }
+
+includeBuild("../sentry-java") {
+    dependencySubstitution {
+        substitute(module("io.sentry:sentry")).using(project(":sentry"))
+        substitute(module("io.sentry:sentry-android-core")).using(project(":sentry-android-core"))
+        substitute(module("io.sentry:sentry-android-ndk")).using(project(":sentry-android-ndk"))
+    }
+}

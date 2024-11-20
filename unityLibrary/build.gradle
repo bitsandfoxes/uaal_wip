@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
 apply from: '../shared/keepUnitySymbols.gradle'
 apply plugin: 'kotlin-android'
+apply plugin: 'io.sentry.android.gradle'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -17,7 +18,7 @@ repositories {
 
 android {
     namespace "com.unity3d.player"
-    ndkPath "/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK"
+    ndkPath "/Applications/Unity/Hub/Editor/6000.0.26f1/PlaybackEngines/AndroidPlayer/NDK"
     ndkVersion "23.1.7779620"
     compileSdk 35
     buildToolsVersion = "34.0.0"
@@ -166,4 +167,15 @@ android.externalNativeBuild {
 }
 android.buildFeatures {
     prefab true
+}
+
+sentry {
+    org = "sentry-sdks"
+    projectName = "z-uaal"
+
+    // this will upload your source code to Sentry to show it as part of the stack traces
+    // disable if you don't want to expose your sources
+    includeSourceContext = true
+    uploadNativeSymbols = true
+    autoUploadNativeSymbols = true
 }
