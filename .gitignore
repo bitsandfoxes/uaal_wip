@@ -2,6 +2,9 @@
 .gradle/
 build/
 
+# Because Android peepz need it
+!unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/
+
 # Local configuration file (sdk path, etc)
 local.properties
 
